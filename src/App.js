@@ -5,13 +5,14 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 //Pages
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
+import Projects from './components/Pages/Projects';
 
 function App() {
   return (
 	   <Router>
     		<PageWrapper>
 		  		<Route
-					exact={true}
+					exact={false}
 					path="/"
 					component={Home}
 				/>
@@ -21,7 +22,8 @@ function App() {
 					component={About}
 				/>
 				
-				
+				<Projects/>
+
 			</PageWrapper>
 		</Router>
   );
