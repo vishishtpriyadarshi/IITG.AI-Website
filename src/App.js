@@ -12,7 +12,6 @@ function App() {
 	   <Router>
     		<PageWrapper>
 		  		<Route
-					exact={false}
 					path="/"
 					component={Home}
 				/>
@@ -22,7 +21,12 @@ function App() {
 					component={About}
 				/>
 				
-				<Projects/>
+				<Route
+					path="/projects"
+					component={Projects}
+				/>
+
+				
 
 			</PageWrapper>
 		</Router>
