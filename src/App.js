@@ -6,6 +6,9 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Projects from './components/Pages/Projects';
+import InitiativeBlock from './components/blocks/InitiativeBlock'
+import People from './components/Pages/People';
+import PeopleBlock from './components/blocks/PeopleBlock';
 
 function App() {
   return (
@@ -26,7 +29,9 @@ function App() {
 					component={Projects}
 				/>
 
+				<InitiativeBlock />
 				
+				<People />
 
 			</PageWrapper>
 		</Router>
