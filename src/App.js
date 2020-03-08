@@ -8,32 +8,50 @@ import About from './components/Pages/About';
 import Projects from './components/Pages/Projects';
 import InitiativeBlock from './components/blocks/InitiativeBlock'
 import People from './components/Pages/People';
-import PeopleBlock from './components/blocks/PeopleBlock';
 import ProjectHome from './components/Pages/Projects/ProjectHome';
+import Calender from './components/Pages/Calender'
 
 function App() {
   return (
 	   <Router>
-    		<PageWrapper>
-		  		<Route
+    		<PageWrapper />
+				<div className="outermost" style={{marginTop: "50px"}}>
+				<Route
+				  	exact
 					path="/"
 					component={Home}
 				/>
 				
 				<Route
+					exact
 					path="/about"
 					component={About}
 				/>
 				
 				<Route
+					exact
 					path="/projects"
 					component={ProjectHome}
 				/>
 				
-				<InitiativeBlock />
-				<People />
+				<Route
+					exact
+					path="/initiatives"
+					component={InitiativeBlock}
+				/>
 
-			</PageWrapper>
+				<Route
+					exact
+					path="/team"
+					component={People}
+				/>
+
+				<Route
+					exact
+					path="/calender"
+					component={Calender}
+				/>
+			</div>
 		</Router>
   );
 }

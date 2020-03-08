@@ -11,27 +11,26 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import ButtonBase from '@material-ui/core/ButtonBase';
+import { Link } from 'react-router-dom'
 
 const useStylesGrid = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    margin: "20px 20px",
+    margin: "auto",
     height: "90%",
-    width: "80%",
-	
-    align: "center"
+    width: "100%",
+    padding: "5%"
   },
   paper: {
-    padding: theme.spacing(1),
-	marginLeft: '140px',
+    padding: "2% 5% 5% 5%",
     width: 1200,
+    margin: "auto",
     color: theme.palette.primary.contrastText
   },
   media: {
     height: 250,
     width: '100%',
-	align: "center",
-	margin: 'auto'
+	  margin: 'auto'
   }
 }));
 
@@ -41,127 +40,129 @@ export default function CenteredGrid() {
   return (
     // <div className={classes.root}> onClick={() => alert("Hello from here")}>
     <div className={classes.root}>
-		
-	<Paper className={classes.paper} elevation={3}>  
-		<h1 style={{textAlign: 'center', color: "#4169E1", fontWeight: '1500'}}> Initiatives</h1>
-      <Grid container spacing={5} justify="center" alignItems="center">
-        <Grid item xs={6} style={{ display: "flex"}}>
-			<Card className={classes.root}>
-            <CardActionArea>
-              <CardMedia
-                className={classes.media}
-                component="img"
-                image="/img/project_images/interiit3.png"
-                title="Inter IIT"
-				onClick={event => window.location.href='https://www.google.com'}
-				
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Inter IIT
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  Lizards are a widespread group of squamate reptiles, with over
-                  6,000 species, ranging across all continents except Antarctica
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-				{/*<Button size="small" color="primary" onClick={event => window.location.href='https://www.google.com'}>
-                	Learn More
-              	</Button>*/}
+    	<Paper className={classes.paper} elevation={3}>  
+      <div style={{paddingBottom: "4%"}}>
+        <h1 style={{textAlign: 'center', color: "#4169E1", fontWeight: '1500'}}>Initiatives</h1>
+      </div>
+        <Grid container spacing={6} justify="center" alignItems="center">
+          <Grid item xs={6} style={{ display: "flex"}}>
+            <Card className={classes.root}>
+              <CardActionArea>
+                <Link to='/projects'>
+                <CardMedia
+                  className={classes.media}
+                  component="img"
+                  image="/img/project_images/interiit3.png"
+                  title="Inter IIT"
+                />
+                </Link>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Inter IIT
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary" component="p">
+                    Lizards are a widespread group of squamate reptiles, with over
+                    6,000 species, ranging across all continents except Antarctica
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                <Link to='/projects'>
+                <Button size="small" color="primary">
+                  Learn More
+                </Button>
+                </Link>
               </CardActions>
-          </Card>
-          
+            </Card>
+          </Grid>
+        
+          <Grid item xs={6} style={{ display: "flex" }}>
+            <Card className={classes.root}>
+              <CardActionArea>
+              <Link to='/projects'>
+                <CardMedia
+                  className={classes.media}
+                  component="img"
+                  image="/img/project_images/pdiscussions.jpeg"
+                  title="Hackathons"
+                />
+                </Link>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Hackathons
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary" component="p">
+                    Lizards are a widespread group of squamate reptiles, with over
+                    6,000 species, ranging across all continents except Antarctica
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                <Link to='/projects'>
+                <Button size="small" color="primary">
+                  Learn More
+                </Button>
+                </Link>
+                </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={6} style={{ display: "flex" }}>
+            <Card className={classes.root}>
+              <CardActionArea>
+              <Link to='/projects'>
+                <CardMedia
+                  className={classes.media}
+                  component="img"
+                  image="/img/project_images/hackathons.jpg"
+                  title="Paper Discussions"
+                />
+                </Link>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Paper Discussions
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary" component="p">
+                    Lizards are a widespread group of squamate reptiles, with over
+                    6,000 species, ranging across all continents except Antarctica
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <Link to='/projects'>
+                <Button size="small" color="primary">
+                  Learn More
+                </Button>
+                </Link>
+            </Card>
+          </Grid>
+          <Grid item xs={6} style={{ display: "flex" }} padding={20}>
+            <Card className={classes.root}>
+              <CardActionArea>
+              <Link to='/projects'>
+                <CardMedia
+                  className={classes.media}
+                  component="img"
+                  image="/img/project_images/sail.jpg"
+                  title="Alumni Interactions"
+                />
+              </Link>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Alumni Interactions
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary" component="p">
+                    Lizards are a widespread group of squamate reptiles, with over
+                    6,000 species, ranging across all continents except Antarctica
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <Link to='/projects'>
+                <Button size="small" color="primary">
+                  Learn More
+                </Button>
+                </Link>
+            </Card>
+          </Grid>
         </Grid>
-		  
-        <Grid item xs={6} style={{ display: "flex" }}>
-          <Card className={classes.root}>
-            <CardActionArea>
-              <CardMedia
-                className={classes.media}
-                component="img"
-                image="/img/project_images/pdiscussions.jpeg"
-                title="Hackathons"
-				onClick={event => window.location.href='https://www.google.com'}
-				
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Hackathons
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  Lizards are a widespread group of squamate reptiles, with over
-                  6,000 species, ranging across all continents except Antarctica
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-				{/*<Button size="small" color="primary" onClick={event => window.location.href='https://www.google.com'}>
-                	Learn More
-              	</Button>*/}
-              </CardActions>
-          </Card>
-        </Grid>
-        <Grid item xs={6} style={{ display: "flex" }}>
-          <Card className={classes.root}>
-            <CardActionArea>
-              <CardMedia
-                className={classes.media}
-                component="img"
-                image="/img/project_images/hackathons.jpg"
-                title="Paper Discussions"
-				onClick={event => window.location.href='https://www.google.com'}
-				  
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Paper Discussions
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  Lizards are a widespread group of squamate reptiles, with over
-                  6,000 species, ranging across all continents except Antarctica
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-			  {/* <CardActions>
-               	<Button size="small" color="primary" onClick={event => window.location.href='https://www.google.com'}>
-                	Learn More
-              	</Button>
-              </CardActions>*/}
-          </Card>
-        </Grid>
-        <Grid item xs={6} style={{ display: "flex" }} padding={20}>
-          <Card className={classes.root}>
-            <CardActionArea>
-              <CardMedia
-                className={classes.media}
-                component="img"
-                image="/img/project_images/sail.jpg"
-                title="Alumni Interactions"
-				onClick={event => window.location.href='https://www.google.com'}
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Alumni Interactions
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  Lizards are a widespread group of squamate reptiles, with over
-                  6,000 species, ranging across all continents except Antarctica
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-			  {/*<CardActions>
-				   
-				   <Button size="small" color="primary" onClick={event => window.location.href='https://www.google.com'}>
-                	Learn More
-              		</Button>
-				  
-              
-              </CardActions>*/}
-          </Card>
-        </Grid>
-      </Grid>
 		</Paper>
     </div>
   );
