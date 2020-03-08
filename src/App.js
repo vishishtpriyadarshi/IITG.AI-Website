@@ -9,6 +9,7 @@ import Projects from './components/Pages/Projects';
 import InitiativeBlock from './components/blocks/InitiativeBlock'
 import People from './components/Pages/People';
 import PeopleBlock from './components/blocks/PeopleBlock';
+import ProjectHome from './components/Pages/Projects/ProjectHome';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
 				
 				<Route
 					path="/projects"
-					component={Projects}
+					component={ProjectHome}
 				/>
 
 				<InitiativeBlock />
