@@ -45,7 +45,7 @@ function SimpleCard(props) {
           {/* <Typography className={classes.title} color="textSecondary">
             Word of the Day
           </Typography> */}
-          <Typography variant="headline" component="h2">
+          <Typography variant="headline" component="h3">
             Neural Turing Machine
           </Typography>
           <Typography className={classes.pos} color="textSecondary">

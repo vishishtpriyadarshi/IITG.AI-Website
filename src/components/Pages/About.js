@@ -6,13 +6,6 @@ class About extends Component{
 	render(){
 		return (
 			<div>
-				<Header 
-					title="about page"
-					subtitle="Glad tot meet you"
-					showButton={false}
-					image={image}
-				/>
-				
 				<section className="page-section" id="about">
 					<div className="container">
 					  <div className="row">

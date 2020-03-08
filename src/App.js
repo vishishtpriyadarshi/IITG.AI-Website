@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Projects from './components/Pages/Projects';
-import InitiativeBlock from './components/blocks/InitiativeBlock'
+import Initiatives from './components/Pages/Initiatives'
 import People from './components/Pages/People';
 import ProjectHome from './components/Pages/Projects/ProjectHome';
 import Calender from './components/Pages/Calender'
@@ -16,6 +16,7 @@ function App() {
 	   <Router>
     		<PageWrapper />
 				<div className="outermost" style={{marginTop: "50px"}}>
+
 				<Route
 				  	exact
 					path="/"
@@ -37,7 +38,7 @@ function App() {
 				<Route
 					exact
 					path="/initiatives"
-					component={InitiativeBlock}
+					component={Initiatives}
 				/>
 
 				<Route
