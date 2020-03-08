@@ -6,6 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import { useHistory } from "react-router-dom";
 
 const styles = {
   card: {
@@ -29,7 +30,13 @@ const styles = {
 
 function SimpleCard(props) {
   const { classes } = props;
-  const bull = <span className={classes.bullet}>•</span>;
+  //const bull = <span className={classes.bullet}>•</span>;
+	
+  let history = useHistory();
+
+  function handleClick() {
+    history.push("/projects/ntm");
+  }
 
   return (
     <div>
@@ -49,7 +56,7 @@ function SimpleCard(props) {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small" color="primary" onClick={event => window.location.href='https://www.google.com'}>Learn More</Button>
+          <Button size="small" color="primary" onClick={handleClick}>Learn More</Button>
         </CardActions>
       </Card>
     </div>

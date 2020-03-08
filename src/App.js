@@ -29,9 +29,8 @@ function App() {
 					path="/projects"
 					component={ProjectHome}
 				/>
-
-				<InitiativeBlock />
 				
+				<InitiativeBlock />
 				<People />
 
 			</PageWrapper>
