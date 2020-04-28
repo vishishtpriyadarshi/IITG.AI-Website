@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../Common/Header';
+import Footer from '../Common/Footer';
 import image from '../assets/img/logo.svg';
 import ParticleBlock from '../blocks/ParticleBlock';
 
