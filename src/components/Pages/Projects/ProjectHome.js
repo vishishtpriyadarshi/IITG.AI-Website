@@ -9,14 +9,71 @@ import NTM from './CardNTM';
 import StyleGAN from './CardStyleGAN';
 import Face2Text from './CardFace2Text';
 
+import PropTypes from 'prop-types';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import useScrollTrigger from '@material-ui/core/useScrollTrigger';
+import Box from '@material-ui/core/Box';
+import Container from '@material-ui/core/Container';
+import Fab from '@material-ui/core/Fab';
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
+import Zoom from '@material-ui/core/Zoom';
+
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import red from '@material-ui/core/colors/red';
 //import 'semantic-ui-css/semantic.min.css'
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    position: 'fixed',
+    right: theme.spacing(2),
+  },
+	
+	appBar: {
+		backgroundImage: "linear-gradient(to right top, #1f4a60, #135366, #065d68, #0a6667, #1d6e64, #177068, #0d716b, #00736f, #006d7c, #006687, #005d8b, #395187)",
+	}
+}));
+
+const theme = createMuiTheme({
+  typography: {
+    fontFamily: [
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
+  },
+});
+
 class ProjectHome extends Component {
-    render() {
+	
+	render() {
         return (
 			<div>
-				<div style={{padding: "4% 0%"}} className="font-family">
-                    <h1 style={{textAlign: 'center', color: "#000000", fontWeight: '1100'}}>Projects</h1>
-            	</div>
+				<React.Fragment>
+					<ThemeProvider theme={theme}>
+						<CssBaseline />
+
+						<AppBar style = {{backgroundImage: "linear-gradient(to right top, #1f4a60, #135366, #065d68, #0a6667, #1d6e64, #177068, #0d716b, #00736f, #006d7c, #006687, #005d8b, #395187)"}} >
+							<Toolbar>
+								<div style = {{marginRight: "5", marginLeft: "3"}}>
+									<Typography variant="h4" style = {{marginRight: "5", marginLeft: "3"}} >Projects</Typography>
+								</div>
+							  
+							</Toolbar>
+						</AppBar>
+					</ThemeProvider>
+				  <Toolbar id="back-to-top-anchor" />
+				 
 			  <Grid container spacing={24} justify="center">
 				<Grid item md={3} >
 				  <NTM />
@@ -44,6 +101,8 @@ class ProjectHome extends Component {
 				  <Face2Text />
 				</Grid>
 			  </Grid>
+					
+			</React.Fragment>
 			</div>
 			)
 	}

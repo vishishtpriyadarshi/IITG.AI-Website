@@ -8,10 +8,14 @@ const bgstyle = {
 	"position": "absolute"
 }
 
+const bgstyle2 = {
+	"background-image": "linear-gradient(to right top, #316c6e, #1f5c67, #114d5e, #0a3d53, #0a2e47, #062b43, #03283f, #00253b, #002c3e, #00323e, #00383d, #083e3b)"
+}
+
 class Header extends Component{
 	render(){
 		return(
-			<div className="masthead" style={bgstyle} >
+			<div className="masthead" style={bgstyle2} >
 				<div className="container">
 					<div className="intro-text" style={{alignContent: "center", textAlign:"center"}}>
 						<img style={{marginTop: "12%", marginBottom: "2%"}} src={this.props.image}></img>
