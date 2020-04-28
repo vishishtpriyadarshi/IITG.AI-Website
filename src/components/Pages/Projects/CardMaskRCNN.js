@@ -7,6 +7,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import ChevronRightRounded from '@material-ui/icons/ChevronRightRounded';
 import { useHistory } from "react-router-dom";
 
 const styles = {
@@ -54,24 +55,25 @@ function SimpleCard(props) {
 		  <CardMedia
 			  className={classes.media}
 			  image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTruQFbZF0zvcSBo7yTQUpYmy_i33RIxscB2U_sUEnUwrbJmIRP&usqp=CAU"
-			  title="Contemplative Reptile"
+			  title="Object Detection and Segmentation"
         	/>
         <CardContent>
           {/* <Typography className={classes.title} color="textSecondary">
             Word of the Day
           </Typography> */}
           <Typography variant="headline" component="h3">
-            Neural Turing Machine
+            Object Detection and Segmentation
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
-            RNN
+            R-CNN
           </Typography>
           <Typography component="p">
-            Implementation and Evaluation of Neural Turing Machine, a Memory Augmented RNN based architecture which can infer low level algorithms
+            Implementation of Mask R-CNN to generate bounding boxes and segmentation masks for each instance of an object in the image
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small" color="primary" onClick={handleClick}>Learn More</Button>
+                    <Button size="small" color="primary" align="center"/*onClick={handleClick}*/ href = 'https://github.com/IITGuwahati-AI/Mask_RCNN'>Learn More <ChevronRightRounded /></Button>
+
         </CardActions>
       </Card>
     </div>

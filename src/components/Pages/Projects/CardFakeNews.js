@@ -7,6 +7,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import ChevronRightRounded from '@material-ui/icons/ChevronRightRounded';
 import { useHistory } from "react-router-dom";
 
 const styles = {
@@ -45,7 +46,7 @@ function SimpleCard(props) {
   let history = useHistory();
 
   function handleClick() {
-    history.push("/projects/ntm");
+    //history.push("https://github.com/IITGuwahati-AI/Fake-News-Detection");
   }
 
   return (
@@ -54,24 +55,25 @@ function SimpleCard(props) {
 		  <CardMedia
 			  className={classes.media}
 			  image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTruQFbZF0zvcSBo7yTQUpYmy_i33RIxscB2U_sUEnUwrbJmIRP&usqp=CAU"
-			  title="Contemplative Reptile"
+			  title="Fake News Detection"
         	/>
         <CardContent>
           {/* <Typography className={classes.title} color="textSecondary">
             Word of the Day
           </Typography> */}
           <Typography variant="headline" component="h3">
-            Neural Turing Machine
+            Fake News Detection
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
             RNN
           </Typography>
           <Typography component="p">
-            Implementation and Evaluation of Neural Turing Machine, a Memory Augmented RNN based architecture which can infer low level algorithms
+            A real-time detection system should be designed for detecting, exploring and interpreting fake information in online social media.
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small" color="primary" onClick={handleClick}>Learn More</Button>
+			  <Button size="small" color="primary" align="center"/*onClick={handleClick}*/ href = 'https://github.com/IITGuwahati-AI/Fake-News-Detection'>Learn More <ChevronRightRounded />
+				</Button> 
         </CardActions>
       </Card>
     </div>
