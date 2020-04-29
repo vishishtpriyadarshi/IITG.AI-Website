@@ -1,14 +1,14 @@
 const dataHeads = [
     {
-        source: "/img/team/1.jpg",
+        source: "/img/team/M4.jpg",
         name: "Anew Ng"
     },
     {
-        source: "/img/team/2.jpg",
+        source: "/img/team/M5.jpg",
         name: "Anew Ng"
     },
     {
-        source: "/img/team/3.jpg",
+        source: "/img/team/M6.jpg",
         name: "Anew Ng"
     }
 ]

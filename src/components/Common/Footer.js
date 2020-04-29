@@ -51,37 +51,22 @@ class Footer extends React.Component {
     const { classes } = this.props;
 
     return (
-      <Paper className={classes.footer}>
-        <Grid container spacing={8}>
-          <Grid item xs={12} sm={6} md={6}>
-            <Typography variant="subheading" color="inherit">
-              Footer Content
-            </Typography>
-
-            <Typography color="inherit" variant="caption">
-              You can use rows and columns of Material-UI Grid here to organize
-              your footer content.
-            </Typography>
-          </Grid>
-
-          <Divider />
-
-          <AppBar position="static">
-            <Toolbar variant="dense">
-              <Typography
-                variant="caption"
-                color="inherit"
-                className={classes.flex}
-              >
-                © Copyright 2017
-              </Typography>
-              <Typography color="inherit" variant="caption">
-                Terms and Conditions
-              </Typography>
-            </Toolbar>
-          </AppBar>
-        </Grid>
-      </Paper>
+		<div>
+			 <footer class="footer py-4">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-4 text-lg-left section-heading"><b>Copyright © IITG.ai 2020</b></div>
+						<div class="col-lg-4 my-3 my-lg-0">
+							<a class="btn btn-dark btn-social mx-2 rounded-circle" href="#!"><i class="fab fa-github"></i></a>
+							<a class="btn btn-dark btn-social mx-2 rounded-circle" href="#!"><i class="fab fa-facebook-f"></i></a>
+							<a class="btn btn-dark btn-social mx-2 rounded-circle" href="#!"><i class="fab fa-linkedin-in"></i></a>
+						</div>
+						<div class="col-lg-4 text-lg-right"><a class="mr-3" href="#!">Privacy Policy</a><a href="#!">Terms of Use</a></div>
+					</div>
+				</div>
+			</footer>
+		</div>
+     
     );
   }
 }

@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function People() {
+/*export default function People() {
   const classes = useStyles();
 
   const profsList = data_profs.map(item => 
@@ -96,6 +96,130 @@ export default function People() {
         </div>
 
     </div>
+  );
+}*/
+
+
+export default function People() {
+	return (
+      	<div>
+			<section class="page-section bg-light" id="team">
+				<div class="container">
+					<div class="text-center">
+						<h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+						<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/M12.png" alt="" />
+								<h4>Neeraja J.</h4>
+								<p class="text-muted">Secretary</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+								<h4>Animesh Renanse</h4>
+								<p class="text-muted">ML Head</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/M14.png" alt="" />
+								<h4>Yashwant</h4>
+								<p class="text-muted">CV Head</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/M11.png" alt="" />
+								<h4>Abhilash</h4>
+								<p class="text-muted">NLP Head</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+								<h4>Vishisht Priyadarshi</h4>
+								<p class="text-muted">Web Development Head</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/M8.png" alt="" />
+								<h4>Dibyakanti</h4>
+								<p class="text-muted">Outreach & Open Source Head</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/M4.png" alt="" />
+								<h4>Shrey Jani</h4>
+								<p class="text-muted">Convenor (ML reasearch Day)</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/M3.png" alt="" />
+								<h4>Koushik Rajesh</h4>
+								<p class="text-muted">Core Team Member</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/M9.png" alt="" />
+								<h4>Animesh Tiwari</h4>
+								<p class="text-muted">Core Team Member</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/M2.png" alt="" />
+								<h4>Eshwar Nukala</h4>
+								<p class="text-muted">Core Team Member</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
   );
 }
 

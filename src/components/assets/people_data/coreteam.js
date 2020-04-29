@@ -1,14 +1,14 @@
 const dataCore = [
     {
-        source: "/img/team/1.jpg",
+        source: "/img/team/M1.png",
         name: "Anew Ng"
     },
     {
-        source: "/img/team/2.jpg",
+        source: "/img/team/M2.png",
         name: "Anew Ng"
     },
     {
-        source: "/img/team/3.jpg",
+        source: "/img/team/M3.png",
         name: "Anew Ng"
     }
 ]

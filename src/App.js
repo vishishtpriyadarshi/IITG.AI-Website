@@ -54,7 +54,7 @@ function App() {
 					component={Calender}
 				/>
 			</div>
-		 
+		 <Footer />
 		</Router>
   );
 }
