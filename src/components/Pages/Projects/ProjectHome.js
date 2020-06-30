@@ -60,18 +60,6 @@ class ProjectHome extends Component {
         return (
 			<div>
 				<React.Fragment>
-					<ThemeProvider theme={theme}>
-						<CssBaseline />
-
-						<AppBar style = {{backgroundImage: "linear-gradient(to right top, #1f4a60, #135366, #065d68, #0a6667, #1d6e64, #177068, #0d716b, #00736f, #006d7c, #006687, #005d8b, #395187)"}} >
-							<Toolbar>
-								<div style = {{marginRight: "5", marginLeft: "3"}}>
-									<Typography variant="h4" style = {{marginRight: "5", marginLeft: "3"}} >Projects</Typography>
-								</div>
-							  
-							</Toolbar>
-						</AppBar>
-					</ThemeProvider>
 				  <Toolbar id="back-to-top-anchor" />
 				 
 			  <Grid container spacing={24} justify="center">

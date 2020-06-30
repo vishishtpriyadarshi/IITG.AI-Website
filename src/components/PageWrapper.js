@@ -36,36 +36,40 @@ class PageWrapper extends Component{
 		// 		</nav>
 		// 		{this.props.children}
 		// 	</div>
-		// )
+		// )  
 
 		return (
-			<nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-4 fixed-top" style={{margin: 0}}>
+			<nav class="navbar navbar-expand-sm navbar navbar-dark bg-dark justify-content-between mb-4 fixed-top" style={{margin: 0}}>
 				<div class="container" style={{margin: 0}}>
-			  <Link class="navbar-brand" to="/">IITG.ai</Link>
+			  <Link class="navbar-brand js-scroll-trigger" to="/">IITG.ai</Link>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
 		
-			  <div class="collapse navbar-collapse" id="mobile-nav">
+					
+			  
+			<div class="collapse navbar-collapse" id="mobile-nav">
 		
 				<ul class="navbar-nav ml-auto">
 				  <li class="nav-item">
-					<Link class="nav-link" to="/about">About</Link>
+					<Link class="nav-link js-scroll-trigger" to="/about">About</Link>
+				  </li>
+					<li>
+					</li>
+				  <li class="nav-item">
+					<Link class="nav-link js-scroll-trigger" to="/projects">Projects</Link>
 				  </li>
 				  <li class="nav-item">
-					<Link class="nav-link" to="/projects">Projects</Link>
+					<Link class="nav-link js-scroll-trigger" to="/initiatives">Initiatives</Link>
 				  </li>
 				  <li class="nav-item">
-					<Link class="nav-link" to="/initiatives">Initiatives</Link>
+					<Link class="nav-link js-scroll-trigger" to="/team">Team</Link>
 				  </li>
 				  <li class="nav-item">
-					<Link class="nav-link" to="/team">Team</Link>
+					<Link class="nav-link js-scroll-trigger" to="/calender">Calender</Link>
 				  </li>
 				  <li class="nav-item">
-					<Link class="nav-link" to="/calender">Calender</Link>
-				  </li>
-				  <li class="nav-item">
-					<Link class="nav-link" to="/contact">Contact Us</Link>
+					<Link class="nav-link js-scroll-trigger" to="/contact">Contact Us</Link>
 				  </li>
 				</ul>
 			  </div>

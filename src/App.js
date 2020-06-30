@@ -4,13 +4,15 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 //Pages
 import Home from './components/Pages/Home';
-import About from './components/Pages/about/About';
+import About from './components/Pages/About';
 import Projects from './components/Pages/Projects';
 import Initiatives from './components/Pages/Initiatives'
 import People from './components/Pages/People';
 import ProjectHome from './components/Pages/Projects/ProjectHome';
 import Calender from './components/Pages/Calender';
 import Footer from './components/Common/Footer';
+import Contact from './components/Pages/Contact';
+import Maintenance from './components/Pages/Maintenance';
 
 function App() {
   return (
@@ -52,6 +54,18 @@ function App() {
 					exact
 					path="/calender"
 					component={Calender}
+				/>
+					
+				<Route
+					exact
+					path="/contact"
+					component={Contact}
+				/>
+					
+				<Route
+					exact
+					path="/Maintenance"
+					component={Maintenance}
 				/>
 			</div>
 		 <Footer />

@@ -48,7 +48,7 @@ export default function CenteredGrid() {
           <Grid item xs={6} style={{ display: "flex"}}>
             <Card className={classes.root}>
               <CardActionArea>
-                <Link to='/projects'>
+                <Link to='/Maintenance'>
                 <CardMedia
                   className={classes.media}
                   component="img"
@@ -67,7 +67,7 @@ export default function CenteredGrid() {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Link to='/projects'>
+                <Link to='/Maintenance'>
                 <Button size="small" color="primary">
                   Learn More
                 </Button>
@@ -79,7 +79,7 @@ export default function CenteredGrid() {
           <Grid item xs={6} style={{ display: "flex" }}>
             <Card className={classes.root}>
               <CardActionArea>
-              <Link to='/projects'>
+              <Link to='/Maintenance'>
                 <CardMedia
                   className={classes.media}
                   component="img"
@@ -98,7 +98,7 @@ export default function CenteredGrid() {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Link to='/projects'>
+                <Link to='/Maintenance'>
                 <Button size="small" color="primary">
                   Learn More
                 </Button>
@@ -109,7 +109,7 @@ export default function CenteredGrid() {
           <Grid item xs={6} style={{ display: "flex" }}>
             <Card className={classes.root}>
               <CardActionArea>
-              <Link to='/projects'>
+              <Link to='/Maintenance'>
                 <CardMedia
                   className={classes.media}
                   component="img"
@@ -127,7 +127,7 @@ export default function CenteredGrid() {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <Link to='/projects'>
+              <Link to='/Maintenance'>
                 <Button size="small" color="primary">
                   Learn More
                 </Button>
@@ -137,7 +137,7 @@ export default function CenteredGrid() {
           <Grid item xs={6} style={{ display: "flex" }} padding={20}>
             <Card className={classes.root}>
               <CardActionArea>
-              <Link to='/projects'>
+              <Link to='/Maintenance'>
                 <CardMedia
                   className={classes.media}
                   component="img"
@@ -155,7 +155,7 @@ export default function CenteredGrid() {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <Link to='/projects'>
+              <Link to='/Maintenance'>
                 <Button size="small" color="primary">
                   Learn More
                 </Button>

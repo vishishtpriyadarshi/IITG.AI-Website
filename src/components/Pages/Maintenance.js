@@ -4,15 +4,14 @@ import Footer from '../Common/Footer';
 import image from '../assets/img/logo.svg';
 import ParticleBlock from '../blocks/ParticleBlock';
 
-class Maintenance extends Component{
+class Home extends Component{
 	render(){
 		return(
 			<div style={{marginTop: 0}}>
 				<Header 
-					title="Study Group at IIT Guwahati focused on learning Artificial Intelligence."
+					title="Under Maintenance"
 					subtitle=""
 					buttonText="About Us"
-					image={image}
 				/>
 				<ParticleBlock />
 			</div>
@@ -21,4 +20,4 @@ class Maintenance extends Component{
 	}
 }
 
-export default Maintenance;
+export default Home;
