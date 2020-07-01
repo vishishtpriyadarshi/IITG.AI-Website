@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import { Link, NavLink } from "react-router-dom";
 
 class PageWrapper extends Component{
 	render(){
@@ -74,7 +74,7 @@ class PageWrapper extends Component{
 				</ul>
 			  </div>
 			</div>
-		  	</nav>
+			</nav>
 		)
 	}
 }

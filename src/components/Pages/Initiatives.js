@@ -42,7 +42,7 @@ export default function CenteredGrid() {
     <div className={classes.root}>
     	<Paper className={classes.paper} elevation={3}>  
       <div style={{paddingBottom: "4%"}} className="font-family">
-        <h1 style={{textAlign: 'center', color: "#000000", fontWeight: '1100'}}>Initiatives</h1>
+        <h1 style={{textAlign: 'center', color: "#000000", fontWeight: '800', fontFmily: "Lato"}}>INITIATIVES</h1>
       </div>
         <Grid container spacing={6} justify="center" alignItems="center">
           <Grid item xs={6} style={{ display: "flex"}}>
