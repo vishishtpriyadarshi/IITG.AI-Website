@@ -41,7 +41,7 @@ class PageWrapper extends Component{
 		return (
 			<nav class="navbar navbar-expand-sm navbar navbar-dark bg-dark justify-content-between mb-4 fixed-top" style={{margin: 0}}>
 				<div class="container" style={{margin: 0}}>
-			  <Link class="navbar-brand js-scroll-trigger" to="/">IITG.ai</Link>
+			  <Link class="navbar-brand js-scroll-trigger mx-2 font-italic text-warning" to="/" style={{fontSize: "200px !important;"}}><img id="logo" alt="Logo" src="img/logos/logo.svg" width="65" height="65" /><span>IITG.ai</span></Link>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
@@ -52,7 +52,7 @@ class PageWrapper extends Component{
 		
 				<ul class="navbar-nav ml-auto">
 				  <li class="nav-item">
-					<Link class="nav-link js-scroll-trigger" to="/about">About</Link>
+					<Link class="nav-link js-scroll-trigger" style={{fontSize: "200px !important;"}}  to="/about">About</Link>
 				  </li>
 					<li>
 					</li>
