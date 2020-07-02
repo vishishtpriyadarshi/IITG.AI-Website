@@ -1,4 +1,70 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+
+import retreat from './retreat';
+import Jumbotron from './Jumbotron';
+
+export default class About extends Component {
+    render() {
+        return(
+            <div>
+                <Jumbotron 
+                    title="IITG.ai - Amazing student community" 
+                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!Lorem ipsum dolor"
+                    backgroundImage="Group.png"
+                />
+				<br />
+				<div className="section">
+                    <h2 className="section-title fancy-heading"> Community </h2>
+                    <div 
+                        id="carouselExampleIndicators"
+                        class="carousel slide" 
+                        data-ride="carousel"
+                        style={{
+                            "width": "100vw",
+                            "margin": "0 auto",
+                        }}
+                    >
+                        <ol class="carousel-indicators">
+                            {retreat.map((pic, index) => {
+                                const active = index == 0 ? "active" : ""
+                                return <li data-target="#carouselExampleIndicators" data-slide-to={index} class={active}> </li>                                
+                            })}
+                        </ol>
+                        <div class="carousel-inner">
+                            {retreat.map((pic, index) => {
+                                const carouselClass = index == 0 ? "carousel-item active" : "carousel-item"
+                                return (
+                                    <div className={carouselClass}>
+                                        <img 
+											className = "d-block mx-auto"
+                                            style={{height:"550px", width: "60%"}}
+                                            src={require(`../assets/img/aboutCarousel/${pic.name}`)} 
+                                            alt="" 
+                                        />
+                                    </div>
+                                )
+                            })}
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+				<br />
+			</div>
+                
+        );
+    }
+}
+
+
+
+{/*import React, {Component} from 'react';
 import Header from '../Common/Header';
 import image from '../assets/img/header-bg.jpg';
 
@@ -40,10 +106,10 @@ class About extends Component{
 					</div>
 				</div>
 				
-				<div class = "page-section">
+				{/*<div class = "row">
 					<div className="timeline-body">
 						<div className="card bg-dark text-white">
-							<img style={{display: "inline-block", height: "600px"}} src="img/about/1.jpg" alt="Card image"/>
+							<img style={{display: "inline-block", height: "600px"}} src="img/about/Group.png" alt="Card image"/>
 							<div className="card-img-overlay">
 								<h5 className="card-title">Card title</h5>
 								<p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -52,7 +118,31 @@ class About extends Component{
 						</div>
 					</div>
 				
+				</div>*
+				<div className = "text_line">
+					<div className = "container">
+						<div className = "row">
+							<div className = "col-lg-6 text-lg-right text-centre">
+								<div className = "text_line_image" style = {{marginTop: "50%", marginRight: "10%"}}>
+									<img src = "img/about/Group.png" alt />
+								</div>
+
+							</div>
+
+							<div className = "col-lg-5 offset-lg-1">
+								<div class = "text_line_content">
+									<h1> About Us </h1>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+
+									</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
 				</div>
+				
 				
 				<section className="page-section" id="about">
 					<div className="container">
@@ -137,4 +227,7 @@ class About extends Component{
 	}
 }
 
-export default About
+export default About*/}
+
+
+
