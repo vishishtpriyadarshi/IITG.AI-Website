@@ -103,7 +103,7 @@ class PageWrapper extends Component{
                     </div>
 
                 </header>
-
+					
                 <div className="menu_container">
                     <div className="menu menu_mm text-right">
                         <div className="menu_close"><i className="far fa-times-circle trans_200"></i></div>

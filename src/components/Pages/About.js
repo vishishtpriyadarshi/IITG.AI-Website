@@ -8,10 +8,51 @@ export default class About extends Component {
         return(
             <div>
                 <Jumbotron 
-                    title="IITG.ai - Amazing student community" 
-                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!Lorem ipsum dolor"
+                    title="IITG.ai - Student community" 
+                    description="The AI community is lead by a dedicated group of student volunteers. Each one of them brings unique insights and expertise across various domains of AI. Our sense of motivation comes from a desire to solve challenging problems and we do this by  providing a platform for motivated students to be a part of a community that will aid in their pursuit of becoming a world class developers or researchers."
                     backgroundImage="Group.png"
                 />
+				
+				
+				{/* Text */}
+				
+				<div className = "text_line">
+					<div className = "container">
+						<div className = "row">
+							
+							<div className = "col-lg-12 offset-lg-1">
+								<div className = "text_line_content">
+									<h2> Mentor Talk </h2>
+									<ul style={{font: "150px"}}>
+										<li>
+										<q>I joined the club to get mentorship and work with similar-minded people.</q>
+										</li>
+										<li>
+										<q>I want to solve intelligence by understanding how the brain works and drawing inspiration from other related fields like neuroscience.</q>
+										</li>
+										<li>
+										<q>I believe that a combination of AI and human knowledge is better than both of them individually.</q>
+										</li>
+										<li>
+										<q> I am excited about the real-life applications of advancements in computer vision.</q>
+										</li>
+										<li>
+										<q>I like that we are respecting the research process and taking our time to deeply understand how things actually work.</q>
+										</li>
+										<li>
+										<q>I am very happy that we are thinking about the long-term and making real progress compared to just building prototypes without really understanding how things work.</q>
+										</li>
+									</ul>
+									
+									These are some of the excerpts shared by the members of the club when asked about their motivation to work in AI and their experience over the past year. As mentioned above, one of the core aims of the club was to build a community, not only to share knowledge with each other, but also get diverse perspectives for tackling a given problem. It can be seen from the statements that there is already a wide spectrum in the reasons why several members joined the club and why they are excited about the field, ranging from solving intelligence to working on problems of societal importance. It is hard to imagine now, that just a couple of years ago, AI researchers on-campus used to mostly work in isolation, not necessarily because they wanted to do so, but because they lacked the platform that would enable collaboration. 2019 being the inaugural year of the club as an official part of the Gymkhana, this was the core vision we wanted to materialize - encourage students to view each other as collaborators to learn from and grow together with. And to help them realise that their network of support extends beyond their present peers in the form of seniors, alumni and Professors. The several paper discussion sessions, workshops, alumni webinars and a hackathon have been important milestones in that direction. Every member of the club is very excited about the future of the club and we have a ton of exciting things planned for the next year to help each member grow, both in terms of their learning and also their personal development as a future developer/researcher. <br/>
+									<i><b>- Aman Dalmia (founder, currently at Wadhwani AI)</b></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				{/* Carousel */}
 				<br />
 				<div className="section">
                     <h2 className="section-title fancy-heading"> Community </h2>
