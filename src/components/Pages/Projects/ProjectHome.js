@@ -24,7 +24,7 @@ import Zoom from '@material-ui/core/Zoom';
 
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import red from '@material-ui/core/colors/red';
-//import 'semantic-ui-css/semantic.min.css'
+import Jumbotron from '../Jumbotron';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -59,14 +59,20 @@ class ProjectHome extends Component {
 	render() {
         return (
 			<div className="bg-light"><br />
-				<section class="page-section bg-light" id="team">
+				{/*<section class="page-section bg-light" id="team">
 					<div class="container">
 						<div class="text-center">
 							<h1 class="section-heading text-uppercase">Projects</h1>
 						</div>
 
 					</div>
-				</section>
+				</section>*/}
+			
+                <Jumbotron 
+                    title="Projects Section" 
+                    description="Phasellus sapien augue, accumsan eu magna pellentesque, ornare porttitor erat. Aliquam a risus in lorem mattis varius. Morbi hendrerit justo eget tristique ornare. Morbi rhoncus eget ex vitae feugiat. In vitae feugiat velit. Proin rhoncus ut odio non accumsan. Phasellus hendrerit non nulla in rhoncus. Suspendisse id orci sodales, consectetur eros semper, placerat enim."
+                    backgroundImage="session.jpg"
+                />
 				<React.Fragment>
 					<Grid container spacing={24} justify="center">
 						<Grid item md={3} >

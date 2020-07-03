@@ -6,7 +6,7 @@ class Home extends Component{
         return (
             <div>
                 <Landing
-                    message = "Study Group at IIT Guwahati focused on learning Machine Learning & Deep Learning"
+                    message = "The Artificial Intelligence Community of IIT Guwahati"
                 />
 			</div>
         );

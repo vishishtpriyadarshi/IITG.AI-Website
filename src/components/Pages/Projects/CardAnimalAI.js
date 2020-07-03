@@ -68,7 +68,7 @@ function SimpleCard(props) {
             ___
           </Typography>
           <Typography component="p">
-            ____
+            We implemented a reformed architecture which uses Proximal Policy Optimization for training the agent and also uses Behavior Cloning for incorporating Expert Trajectories, which considerably reduce the training time and also improve agent’s performance on some of the harder tasks compared to an agent without Imitation Learning techniques.
           </Typography>
         </CardContent>
         <CardActions>

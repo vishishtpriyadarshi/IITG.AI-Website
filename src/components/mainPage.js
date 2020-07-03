@@ -22,7 +22,7 @@ import Maintenance from './Pages/Maintenance';
 
 function NotFound() {
 	  return (
-		      <Landing message="Page Not Found" />
+		      <Landing message = "404 - Page Not Found" />
 		    )
 }
 

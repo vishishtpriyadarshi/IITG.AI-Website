@@ -91,11 +91,13 @@ class Footer extends React.Component {
 
 						<div class="col-md-4 text-white my-4 text-center text-md-left ">
 							<span class=" font-weight-bold ">About us</span>
-							<p class="text-warning my-2" >Study Group at IIT Guwahati focused on learning Machine Learning & Deep Learning</p>
+							<p class="text-warning my-2" >Study Group at IIT Guwahati focused on learning Machine Learning and Deep Learning</p>
 							<div class="py-2">
-								<a href="https://www.facebook.com/iitgai/"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+								<a href="https://www.facebook.com/iitgai/"><i class="fab fa-facebook fa-2x text-info mx-3"></i></a>
 								<a href="https://medium.com/iitg-ai"><i class="fab fa-medium fa-2x text-danger mx-3"></i></a>
 								<a href="https://linkedin.com/company/iitg-ai"><i class="fab fa-linkedin fa-2x text-info mx-3"></i></a>
+								<a href="https://github.com/IITGuwahati-AI"><i class="fab fa-github fa-2x text-danger mx-3"></i></a>
+								<a href="https://twitter.com/iitgai"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
 							</div>
 						</div>
 					</div>  
