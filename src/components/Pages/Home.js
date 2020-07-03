@@ -1,24 +1,16 @@
 import React, {Component} from 'react';
-import Header from '../Common/Header';
-import Footer from '../Common/Footer';
-import image from '../assets/img/logo.png';
-import ParticleBlock from '../blocks/ParticleBlock';
+import Landing from '../Common/Landing';
 
-class Maintenance extends Component{
-	render(){
-		return(
-			<div style={{marginTop: 0}}>
-				<Header 
-					title="Study Group at IIT Guwahati focused on learning Artificial Intelligence."
-					subtitle=""
-					buttonText="About Us"
-					image={image}
-				/>
-				<ParticleBlock />
+class Home extends Component{
+	render() {
+        return (
+            <div>
+                <Landing
+                    message="Building and fostering a vibrant machine learning community."
+                />
 			</div>
-		)	
-	
+        );
 	}
 }
 
-export default Maintenance;
+export default Home;
