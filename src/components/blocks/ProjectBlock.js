@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 const img_paths = {
-    "../assets/img/Logo.png": require("../assets/img/Logo.png")
+    "../assets/img/logo.png": require("../assets/img/logo.png")
 }
 
 const title_style = {

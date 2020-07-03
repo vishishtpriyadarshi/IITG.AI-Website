@@ -13,6 +13,9 @@ import Calender from './components/Pages/Calender';
 import Footer from './components/Common/Footer';
 import Contact from './components/Pages/Contact';
 import Hackathons from './components/Pages/Initiatives/Hackathons';
+import PaperDiscussions from './components/Pages/Initiatives/paperDiscussions';
+import Alumni from './components/Pages/Initiatives/alumni';
+import InterIIT from './components/Pages/Initiatives/interIIT';
 import Maintenance from './components/Pages/Maintenance';
 
 function App() {
@@ -73,6 +76,24 @@ function App() {
 					exact
 					path="/hackathons"
 					component={Hackathons}
+				/>
+
+				<Route
+					exact
+					path="/paperdiscussions"
+					component={PaperDiscussions}
+				/>
+
+				<Route
+					exact
+					path="/alumni"
+					component={Alumni}
+				/>
+
+				<Route
+					exact
+					path="/interIIT"
+					component={InterIIT}
 				/>
 			</div>
 		 <Footer />

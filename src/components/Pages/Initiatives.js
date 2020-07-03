@@ -50,7 +50,7 @@ export default function CenteredGrid() {
 				<Grid item xs={6} style={{ display: "flex"}}>
 					<Card className={classes.root}>
 						<CardActionArea>
-							<Link to='/hackathons'>
+							<Link to='/interIIT'>
 								<CardMedia
 								className={classes.media}
 								component="img"
@@ -72,7 +72,7 @@ export default function CenteredGrid() {
 						</CardActionArea>
 
 						<CardActions>
-							<Link to='/hackathons'>
+							<Link to='/interIIT'>
 								<Button size="small" color="primary">
 								Learn More
 								</Button>
@@ -119,7 +119,7 @@ export default function CenteredGrid() {
 				<Grid item xs={6} style={{ display: "flex" }}>
 					<Card className={classes.root}>
 						<CardActionArea>
-							<Link to='/hackathons'>
+							<Link to='/paperdiscussions'>
 								<CardMedia
 									className={classes.media}
 									component="img"
@@ -140,7 +140,7 @@ export default function CenteredGrid() {
 							</CardContent>
 						</CardActionArea>
 
-						<Link to='/hackathons'>
+						<Link to='/paperdiscussions'>
 							<Button size="small" color="primary">
 							  Learn More
 							</Button>
@@ -153,7 +153,7 @@ export default function CenteredGrid() {
 				<Grid item xs={6} style={{ display: "flex" }} padding={20}>
 					<Card className={classes.root}>
 						<CardActionArea>
-							<Link to='/hackathons'>
+							<Link to='/alumni'>
 							<CardMedia
 							  className={classes.media}
 							  component="img"
@@ -174,7 +174,7 @@ export default function CenteredGrid() {
 							</CardContent>
 						</CardActionArea>
 
-						<Link to='/hackathons'>
+						<Link to='/alumni'>
 							<Button size="small" color="primary">
 								Learn More
 							</Button>
