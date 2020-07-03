@@ -84,7 +84,6 @@ class PageWrapper extends Component{
 
                     <div className="logo mr-auto">
                         <Link to="/"><img src={homeLogo} height="80" alt=""/></Link>
-						<h1> ABC </h1>
                     </div>
 
                     <nav className="main_nav justify-self-end text-right">
