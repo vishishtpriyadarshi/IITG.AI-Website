@@ -64,8 +64,7 @@ export default function CenteredGrid() {
 									Inter IIT
 								</Typography>
 								<Typography variant="body2" color="textSecondary" component="p">
-									Lizards are a widespread group of squamate reptiles, with over
-									6,000 species, ranging across all continents except Antarctica
+									Some Intro text on Inter-IIT
 								</Typography>
 							</CardContent>
 
@@ -99,8 +98,7 @@ export default function CenteredGrid() {
 								</Typography>
 
 								<Typography variant="body2" color="textSecondary" component="p">
-								Lizards are a widespread group of squamate reptiles, with over
-								6,000 species, ranging across all continents except Antarctica
+								Some Intro text on Hackathons
 								</Typography>
 							</CardContent>
 						</CardActionArea>
@@ -134,8 +132,7 @@ export default function CenteredGrid() {
 								</Typography>
 
 								<Typography variant="body2" color="textSecondary" component="p">
-									Lizards are a widespread group of squamate reptiles, with over
-									6,000 species, ranging across all continents except Antarctica
+								Some Intro text on Paper Discussions
 								</Typography>
 							</CardContent>
 						</CardActionArea>
@@ -168,8 +165,7 @@ export default function CenteredGrid() {
 								</Typography>
 
 								<Typography variant="body2" color="textSecondary" component="p">
-									Lizards are a widespread group of squamate reptiles, with over
-									6,000 species, ranging across all continents except Antarctica
+								Some Intro text on Alumni Interactions
 								</Typography>
 							</CardContent>
 						</CardActionArea>

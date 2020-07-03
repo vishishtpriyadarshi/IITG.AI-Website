@@ -16,26 +16,8 @@ const bgstyle2 = {
 
 class Header extends Component{
 	render(){
-		return(
-			<div className="masthead" style={bgstyle2} >
-				<div className="container">
-					<div className="intro-text" style={{alignContent: "center", textAlign:"center" }}>
-						<img style={{marginTop: "12%", marginBottom: "2%"}} src={this.props.image}></img>
-						<div 
-							className="intro-lead-in"
-							style={{
-								fontFamily: "Muli",
-								fontWeight: "400",
-								fontSize: "1.8em",
-								color: "white"
-							}}	
-						>
-							{this.props.title}
-						</div>
-						<div className="intro-heading text-uppercase">{this.props.subtitle}</div>
-					</div>
-				</div>
-			</div>
+		return(<div></div>
+			
 		)
 	}
 }
