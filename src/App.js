@@ -12,6 +12,7 @@ import ProjectHome from './components/Pages/Projects/ProjectHome';
 import Calender from './components/Pages/Calender';
 import Footer from './components/Common/Footer';
 import Contact from './components/Pages/Contact';
+import Hackathons from './components/Pages/Initiatives/Hackathons';
 import Maintenance from './components/Pages/Maintenance';
 
 function App() {
@@ -66,6 +67,12 @@ function App() {
 					exact
 					path="/Maintenance"
 					component={Maintenance}
+				/>
+					
+				<Route
+					exact
+					path="/hackathons"
+					component={Hackathons}
 				/>
 			</div>
 		 <Footer />

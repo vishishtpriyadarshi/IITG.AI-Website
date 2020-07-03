@@ -58,37 +58,33 @@ class ProjectHome extends Component {
 	
 	render() {
         return (
-			<div>
+			<div className="bg-light">
 				<React.Fragment>
-				  <Toolbar id="back-to-top-anchor" />
-				 
-			  <Grid container spacing={24} justify="center">
-				<Grid item md={3} >
-				  <NTM />
-				</Grid>
-				<Grid item md={3}>
-				  <AnimalAI />
-				</Grid>
-				<Grid item md={3}>
-				 <MaskRCNN />
-				</Grid>
-			  </Grid>
-				<Grid container spacing={24} justify="center">
-				<Grid item md={3} >
-				  <StyleGAN />
-				</Grid>
-				<Grid item md={3}>
-				  <FakeNews />
-				</Grid>
-				<Grid item md={3}>
-				  <CricketCV />
-				</Grid>
-			  </Grid>
-				<Grid container spacing={24} justify="center">
-				<Grid item md={3} >
-				  <Face2Text />
-				</Grid>
-			  </Grid>
+					<Toolbar id="back-to-top-anchor" />
+
+					<Grid container spacing={24} justify="center">
+						<Grid item md={3} >
+						  <NTM />
+						</Grid>
+						<Grid item md={3}>
+						  <AnimalAI />
+						</Grid>
+						<Grid item md={3} >
+						  <StyleGAN />
+						</Grid>
+					</Grid>
+					
+					<Grid container spacing={24} justify="center">
+						<Grid item md={3} >
+						  <Face2Text />
+						</Grid>
+						<Grid item md={3}>
+						  <FakeNews />
+						</Grid>
+						<Grid item md={3}>
+						  <CricketCV />
+						</Grid>
+					 </Grid>
 					
 			</React.Fragment>
 			</div>
