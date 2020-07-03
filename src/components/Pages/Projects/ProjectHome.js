@@ -58,37 +58,43 @@ class ProjectHome extends Component {
 	
 	render() {
         return (
-			<div className="bg-light">
-				<React.Fragment>
-					<Toolbar id="back-to-top-anchor" />
+			<div className="bg-light"><br />
+				<section class="page-section bg-light" id="team">
+					<div class="container">
+						<div class="text-center">
+							<h1 class="section-heading text-uppercase">Projects</h1>
+						</div>
 
+					</div>
+				</section>
+				<React.Fragment>
 					<Grid container spacing={24} justify="center">
 						<Grid item md={3} >
-						  <NTM />
+							<NTM />
 						</Grid>
 						<Grid item md={3}>
-						  <AnimalAI />
+							<AnimalAI />
 						</Grid>
 						<Grid item md={3} >
-						  <StyleGAN />
+							<StyleGAN />
 						</Grid>
 					</Grid>
 					
 					<Grid container spacing={24} justify="center">
 						<Grid item md={3} >
-						  <Face2Text />
+							<Face2Text />
 						</Grid>
 						<Grid item md={3}>
-						  <FakeNews />
+							<FakeNews />
 						</Grid>
 						<Grid item md={3}>
-						  <CricketCV />
+							<CricketCV />
 						</Grid>
 					 </Grid>
 					
-			</React.Fragment>
+				</React.Fragment>
 			</div>
-			)
+			);
 	}
 }
 

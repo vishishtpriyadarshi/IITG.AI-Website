@@ -49,27 +49,7 @@ const styles = theme => ({
 class Footer extends React.Component {
   render() {
     const { classes } = this.props;
-
-		// return (
-		// <div>
-		// 	 <footer class="footer py-4">
-		// 		<div class="container">
-		// 			<div class="row align-items-center">
-		// 				<div class="col-lg-4 text-lg-left section-heading"><b>Copyright © IITG.ai 2020</b></div>
-		// 				<div class="col-lg-4 my-3 my-lg-0">
-		// 					<a class="btn btn-dark btn-social mx-2 rounded-circle" href="#!"><i class="fab fa-github"></i></a>
-		// 					<a class="btn btn-dark btn-social mx-2 rounded-circle" href="#!"><i class="fab fa-facebook-f"></i></a>
-		// 					<a class="btn btn-dark btn-social mx-2 rounded-circle" href="#!"><i class="fab fa-linkedin-in"></i></a>
-		// 				</div>
-		// 				<div class="col-lg-4 text-lg-right"><a class="mr-3" href="#!">Privacy Policy</a><a href="#!">Terms of Use</a></div>
-		// 			</div>
-		// 		</div>
-		// 	</footer>
-		// </div>
-     
-		// );
-	  
-	  return (
+	return (
 		<div>
 			<footer  style={{backgroundColor : "#2c292f"}}>
 				<div class="container">
@@ -80,13 +60,13 @@ class Footer extends React.Component {
 								<h3 class="my-4 text-white">About<span class="mx-2 font-italic text-warning ">IITG.ai</span></h3>
 
 								<p class="footer-links font-weight-bold">
-									<a class="text-white" href="#">Home</a>
+									<a class="text-white" href="/">Home</a>
 									|
-									<a class="text-white" href="#">Blog</a>
+									<a class="text-white" href="/team">Team</a>
 									|
-									<a class="text-white" href="#">About</a>
+									<a class="text-white" href="/about">About Us</a>
 									|
-									<a class="text-white" href="#">Contact</a>
+									<a class="text-white" href="/contact">Contact</a>
 								</p>
 								<p class="text-light py-4 mb-4">&copy;2020 IITG.ai</p>
 							</div>
@@ -111,12 +91,11 @@ class Footer extends React.Component {
 
 						<div class="col-md-4 text-white my-4 text-center text-md-left ">
 							<span class=" font-weight-bold ">About us</span>
-							<p class="text-warning my-2" >Study Group at IIT Guwahati focused on learning Artificial Intelligence</p>
+							<p class="text-warning my-2" >Study Group at IIT Guwahati focused on learning Machine Learning & Deep Learning</p>
 							<div class="py-2">
-								<a href="#"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
-								<a href="#"><i class="fab fa-google-plus fa-2x text-danger mx-3"></i></a>
-								<a href="#"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
-								<a href="#"><i class="fab fa-youtube fa-2x text-danger mx-3"></i></a>
+								<a href="https://www.facebook.com/iitgai/"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+								<a href="https://medium.com/iitg-ai"><i class="fab fa-medium fa-2x text-danger mx-3"></i></a>
+								<a href="https://linkedin.com/company/iitg-ai"><i class="fab fa-linkedin fa-2x text-info mx-3"></i></a>
 							</div>
 						</div>
 					</div>  

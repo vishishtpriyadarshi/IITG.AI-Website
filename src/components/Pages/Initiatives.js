@@ -40,12 +40,19 @@ export default function CenteredGrid() {
 
   return (
     // <div className={classes.root}> onClick={() => alert("Hello from here")}>
+	  
     <div className={classes.root}>
-    	<Paper className={classes.paper} elevation={3}>  
-			<div style={{paddingBottom: "4%"}} className="font-family">
-				<h1 style={{textAlign: 'center', color: "#000000", fontWeight: '800', fontFmily: "Lato"}}>INITIATIVES</h1>
-			</div>
-
+		<br />
+    	<Paper className={classes.paper} elevation={3}> 
+			<section class="page-section bg-light" id="team">
+				<div class="container">
+					<div class="text-center">
+						<h1 class="section-heading text-uppercase">INITIATIVES</h1>
+					</div>
+			
+				</div>
+			</section>
+			<br />
 			<Grid container spacing={6} justify="center" alignItems="center">
 				<Grid item xs={6} style={{ display: "flex"}}>
 					<Card className={classes.root}>

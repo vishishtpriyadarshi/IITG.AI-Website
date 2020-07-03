@@ -52,7 +52,10 @@ COLOR PALETTE
 #particles-js{
   width: 100%;
   height: 100vh;
-  background-image: radial-gradient(#053040, #010C0F);
+  background: #14132D;	
+  background: -webkit-radial-gradient(center, #14132D, #0F4C6F);
+  background: -moz-radial-gradient(center, #14132D, #0F4C6F);  
+  background: radial-gradient(ellipse at center, #14132D, #0F4C6F);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;

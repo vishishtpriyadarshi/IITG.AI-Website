@@ -27,79 +27,6 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-/*export default function People() {
-  const classes = useStyles();
-
-  const profsList = data_profs.map(item => 
-        <Grid item xs={2} sm={3}
-            ><PeopleBlock img_src={item.source} name={item.name}/>
-        </Grid>
-        );
-  const coreList = data_core.map(item => 
-        <Grid item xs={2} sm={3}
-            ><PeopleBlock img_src={item.source} name={item.name}/>
-        </Grid>
-        );
-  const mentorsList = data_mentors.map(item => 
-        <Grid item xs={2} sm={3}
-            ><PeopleBlock img_src={item.source} name={item.name}/>
-        </Grid>
-        );
-  const headsList = data_heads.map(item => 
-        <Grid item xs={2} sm={3}
-            ><PeopleBlock img_src={item.source} name={item.name}/>
-        </Grid>
-        );
-
-  return (
-      <div>
-
-        <div style={inner_div_style}>
-            <h2 style={header_style}> Professors </h2>
-                <div className={classes.root}>
-                    <Grid container spacing={2}>
-                        {profsList}      
-                    </Grid>
-                </div>
-        </div>
-
-        <div style={inner_div_style}>
-            <h2 style={header_style}> Secretary </h2>
-                <PeopleBlock img_src="../assets/img/2.jpg" name="Aditya M." />
-        </div>
-
-        <div style={inner_div_style}>
-            <h2 style={header_style}> Mentors </h2>
-                <div className={classes.root}>
-                    <Grid container spacing={2}>
-                        {mentorsList}      
-                    </Grid>
-                </div>
-        </div>
-        
-        <div style={inner_div_style}>
-            <h2 style={header_style}> Group Heads </h2>
-                <div className={classes.root}>
-                    <Grid container spacing={2}>
-                        {headsList}      
-                    </Grid>
-                </div>
-        </div>
-
-        <div style={inner_div_style}>
-            <h2 style={header_style}> Core Team </h2>
-                <div className={classes.root}>
-                    <Grid container spacing={2}>
-                        {coreList}      
-                    </Grid>
-                </div>
-        </div>
-
-    </div>
-  );
-}*/
-
-
 export default function People() {
 	return (
       	<div>
@@ -107,7 +34,7 @@ export default function People() {
 				<div class="container">
 					<div class="text-center">
 						<h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-						<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+						{/*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*/}
 					</div>
 					<div class="row">
 						<div class="col-lg-4">
