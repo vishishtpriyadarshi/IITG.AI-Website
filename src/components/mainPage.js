@@ -52,7 +52,7 @@ export default function MainPage() {
 			/>
           	
 			<Route exact 
-				path = "/team"
+				path = "/people"
 				component = {People}
 			/>
           	

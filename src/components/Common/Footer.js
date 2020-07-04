@@ -62,7 +62,7 @@ class Footer extends React.Component {
 								<p class="footer-links font-weight-bold">
 									<a class="text-white" href="/">Home</a>
 									|
-									<a class="text-white" href="/team">Team</a>
+									<a class="text-white" href="/people">People</a>
 									|
 									<a class="text-white" href="/about">About Us</a>
 									|

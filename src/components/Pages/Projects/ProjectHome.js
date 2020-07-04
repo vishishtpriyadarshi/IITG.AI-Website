@@ -54,6 +54,7 @@ const theme = createMuiTheme({
   },
 });
 
+
 class ProjectHome extends Component {
 	
 	render() {
@@ -75,25 +76,25 @@ class ProjectHome extends Component {
                 />
 				<React.Fragment>
 					<Grid container spacing={24} justify="center">
-						<Grid item md={3} >
+						<Grid item md={3} xs={12} sm={6}>
 							<NTM />
 						</Grid>
-						<Grid item md={3}>
+						<Grid item md={3} xs={12} sm={6}>
 							<AnimalAI />
 						</Grid>
-						<Grid item md={3} >
+						<Grid item md={3} xs={12} sm={6}>
 							<StyleGAN />
 						</Grid>
 					</Grid>
 					
 					<Grid container spacing={24} justify="center">
-						<Grid item md={3} >
+						<Grid item md={3} xs={12} sm={6}>
 							<Face2Text />
 						</Grid>
-						<Grid item md={3}>
+						<Grid item md={3} xs={12} sm={6}>
 							<FakeNews />
 						</Grid>
-						<Grid item md={3}>
+						<Grid item md={3} xs={12} sm={6}>
 							<CricketCV />
 						</Grid>
 					 </Grid>

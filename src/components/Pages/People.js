@@ -33,7 +33,7 @@ export default function People() {
 			<section class="page-section bg-light" id="team">
 				<div class="container">
 					<div class="text-center">
-						<h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+						<h2 class="section-heading text-uppercase">Current Team</h2>
 						{/*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*/}
 					</div>
 					<div class="row">
@@ -138,6 +138,131 @@ export default function People() {
 								<img class="mx-auto rounded-circle" src="img/team/M2.png" alt="" />
 								<h4>Eshwar Nukala</h4>
 								<p class="text-muted">Core Team Member</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					
+					<br />
+					{/* Mentors */}
+					<div class="text-center">
+						<h2 class="section-heading text-uppercase">Mentors</h2>
+						{/*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*/}
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+								<h4>ABC</h4>
+								<p class="text-muted">XYZ</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+								<h4>ABC</h4>
+								<p class="text-muted">XYZ</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+								<h4>ABC</h4>
+								<p class="text-muted">XYZ</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+								<h4>ABC</h4>
+								<p class="text-muted">XYZ</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+								<h4>ABC</h4>
+								<p class="text-muted">XYZ</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+								<h4>ABC</h4>
+								<p class="text-muted">XYZ</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+					
+
+					
+					<br />
+					{/* Professors */}
+					<div class="text-center">
+						<h2 class="section-heading text-uppercase">Professors</h2>
+						{/*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*/}
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+								<h4>Dr. Ashish Anand</h4>
+								<p class="text-muted">CSE Dept</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					
+					<br />
+					{/* Developers */}
+					<div class="text-center">
+						<h2 class="section-heading text-uppercase">Developers</h2>
+						{/*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*/}
+					</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+								<h4>Vishisht Priyadarshi</h4>
+								<p class="text-muted">Web Development Head</p>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					
+						<div class="col-lg-6">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+								<h4>Shivansh Mishra</h4>
+								<p class="text-muted">Team Member</p>
 								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
 								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
 								<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>

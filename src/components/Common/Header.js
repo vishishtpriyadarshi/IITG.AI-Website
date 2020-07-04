@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link, NavLink } from "react-router-dom";
-import homeLogo from '../assets/img/logo.png';
+import homeLogo from '../assets/img/IITG.ai_Logo.png';
 
 class PageWrapper extends Component{
 	render(){
@@ -17,7 +17,7 @@ class PageWrapper extends Component{
                             <li><NavLink to="/about">About Us</NavLink></li>
                             <li><NavLink to="/projects">Projects</NavLink></li>
                             <li><NavLink to="/initiatives">Initiatives</NavLink></li>
-                            <li><NavLink to="/team">Team</NavLink></li>
+                            <li><NavLink to="/people">People</NavLink></li>
                             <li><NavLink to="/calender">Calendar</NavLink></li>
                             <li><NavLink to="/contact">Contact</NavLink></li>
 							

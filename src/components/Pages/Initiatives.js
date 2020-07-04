@@ -94,7 +94,7 @@ export default function CenteredGrid() {
 								<CardMedia
 									className={classes.media}
 									component="img"
-									image="/img/project_images/pdiscussions.jpeg"
+									image="/img/project_images/Hackathon3.jpg"
 									title="Hackathons"
 								/>
 							</Link>
@@ -128,7 +128,7 @@ export default function CenteredGrid() {
 								<CardMedia
 									className={classes.media}
 									component="img"
-									image="/img/project_images/hackathons.jpg"
+									image="/img/project_images/Discussions.jpg"
 									title="Paper Discussions"
 								/>
 							</Link>

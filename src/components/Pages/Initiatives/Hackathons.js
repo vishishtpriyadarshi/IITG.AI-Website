@@ -11,7 +11,7 @@ export default class About extends Component {
                 <Jumbotron 
                     title="Hackathons" 
                     description="What better way to showcase your skills in AI/ML than to participate in a hackathon"
-                    backgroundImage="Group.png"
+                    backgroundImage="Hackathon2.jpg"
                 />
 				
 				<div className="portfolio">
