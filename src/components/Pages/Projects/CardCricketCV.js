@@ -54,7 +54,7 @@ function SimpleCard(props) {
       <Card className={classes.card}>
 		  <CardMedia
 			  className={classes.media}
-			  image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTruQFbZF0zvcSBo7yTQUpYmy_i33RIxscB2U_sUEnUwrbJmIRP&usqp=CAU"
+			  image="https://user-images.githubusercontent.com/42550496/77931936-76c7fe80-72ca-11ea-899f-32cb895fccbc.png"
 			  title="Cricket CV"
         	/>
         <CardContent>

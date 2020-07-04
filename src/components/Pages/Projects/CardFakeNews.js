@@ -54,7 +54,7 @@ function SimpleCard(props) {
       <Card className={classes.card}>
 		  <CardMedia
 			  className={classes.media}
-			  image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTruQFbZF0zvcSBo7yTQUpYmy_i33RIxscB2U_sUEnUwrbJmIRP&usqp=CAU"
+			  image="https://github.com/IITGuwahati-AI/Fake-News-Detection/raw/master/Political_Fake_News/images/p.PNG"
 			  title="Fake News Detection"
         	/>
         <CardContent>

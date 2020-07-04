@@ -54,7 +54,7 @@ function SimpleCard(props) {
       <Card className={classes.card}>
 		  <CardMedia
 			  className={classes.media}
-			  image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTruQFbZF0zvcSBo7yTQUpYmy_i33RIxscB2U_sUEnUwrbJmIRP&usqp=CAU"
+			  image="https://raw.githubusercontent.com/IITGuwahati-AI/StyleGAN/master/teaser.png"
 			  title="StyleGAN"
         	/>
         <CardContent>
@@ -68,7 +68,7 @@ function SimpleCard(props) {
             GAN
           </Typography>
           <Typography component="p">
-           ___
+           An alternative generator architecture for generative adversarial networks, borrowing from style transfer literature which improves the state-of-the-art in terms of traditional distribution quality metrics.
           </Typography>
         </CardContent>
         <CardActions>

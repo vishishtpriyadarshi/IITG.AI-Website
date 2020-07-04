@@ -54,7 +54,7 @@ function SimpleCard(props) {
       <Card className={classes.card}>
 		  <CardMedia
 			  className={classes.media}
-			  image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTruQFbZF0zvcSBo7yTQUpYmy_i33RIxscB2U_sUEnUwrbJmIRP&usqp=CAU"
+			  image="https://raw.githubusercontent.com/IITGuwahati-AI/AnimalAI/master/documentation/PrefabsPictures/steampunkFOURcrop.png"
 			  title="Animal AI"
         	/>
         <CardContent>
@@ -65,10 +65,10 @@ function SimpleCard(props) {
             Animal AI
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
-            ___
+            AnimalAI-Olympics
           </Typography>
           <Typography component="p">
-            We implemented a reformed architecture which uses Proximal Policy Optimization for training the agent and also uses Behavior Cloning for incorporating Expert Trajectories, which considerably reduce the training time and also improve agent’s performance on some of the harder tasks compared to an agent without Imitation Learning techniques.
+            We implemented a reformed architecture which uses Proximal Policy Optimization for training the agent and also uses Behavior Cloning for incorporating Expert Trajectories.
           </Typography>
         </CardContent>
         <CardActions>
