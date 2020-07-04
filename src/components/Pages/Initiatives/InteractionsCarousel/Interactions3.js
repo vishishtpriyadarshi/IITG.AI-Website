@@ -1,0 +1,1 @@
+module.exports = "img/alumni_interactions/Interactions-3.jpg";
