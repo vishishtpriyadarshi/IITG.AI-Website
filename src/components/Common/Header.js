@@ -25,7 +25,7 @@ class PageWrapper extends Component{
                     </nav>
 
                     <div className="hamburger_container bez_1">
-                        <i className="fas fa-bars trans_200"></i>
+                        <i className="fa fa-bars trans_200"></i>
                     </div>
 
                 </header>
