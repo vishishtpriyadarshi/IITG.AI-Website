@@ -6,7 +6,7 @@ class Contact extends Component{
 		return (
             <div className="home_small">
                 <div className="home_background_container">
-                    <div className="home_background" style={{backgroundImage: `url(${bgImage})`}}></div>
+                    <div className="home_background" style={{backgroundImage: `url(${bgImage})`, filter: "brightness(0.4)"}}></div>
                 </div>
                 <div className="container">
                     <div className="home_small_content col-md-6">

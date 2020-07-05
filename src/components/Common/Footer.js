@@ -59,7 +59,7 @@ class Footer extends React.Component {
 							<div class="py-0">
 								<h3 class="my-4 text-white">About<span class="mx-2 font-italic text-warning ">IITG.ai</span></h3>
 
-								<p class="footer-links font-weight-bold">
+								{/*<p class="footer-links font-weight-bold">
 									<a class="text-white" href="/">Home</a>
 									|
 									<a class="text-white" href="/people">People</a>
@@ -67,7 +67,7 @@ class Footer extends React.Component {
 									<a class="text-white" href="/about">About Us</a>
 									|
 									<a class="text-white" href="/contact">Contact</a>
-								</p>
+								</p>*/}
 								<p class="text-light py-4 mb-4">&copy;2020 IITG.ai</p>
 							</div>
 						</div>
@@ -93,11 +93,11 @@ class Footer extends React.Component {
 							<span class=" font-weight-bold ">About us</span>
 							<p class="text-warning my-2" >Study Group at IIT Guwahati focused on learning Machine Learning and Deep Learning</p>
 							<div class="py-2">
-								<a href="https://www.facebook.com/iitgai/"><i class="fab fa-facebook fa-2x text-info mx-3"></i></a>
-								<a href="https://medium.com/iitg-ai"><i class="fab fa-medium fa-2x text-danger mx-3"></i></a>
-								<a href="https://linkedin.com/company/iitg-ai"><i class="fab fa-linkedin fa-2x text-info mx-3"></i></a>
-								<a href="https://github.com/IITGuwahati-AI"><i class="fab fa-github fa-2x text-danger mx-3"></i></a>
-								<a href="https://twitter.com/iitgai"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
+								<a href="https://www.facebook.com/iitgai/"><i class="fab fa-facebook fa-2x text-yellow mx-3"></i></a>
+								<a href="https://medium.com/iitg-ai"><i class="fab fa-medium fa-2x text-white mx-3"></i></a>
+								<a href="https://linkedin.com/company/iitg-ai"><i class="fab fa-linkedin fa-2x text-yellow mx-3"></i></a>
+								<a href="https://github.com/IITGuwahati-AI"><i class="fab fa-github fa-2x text-white mx-3"></i></a>
+								<a href="https://twitter.com/iitgai"><i class="fab fa-twitter fa-2x text-yellow mx-3"></i></a>
 							</div>
 						</div>
 					</div>  

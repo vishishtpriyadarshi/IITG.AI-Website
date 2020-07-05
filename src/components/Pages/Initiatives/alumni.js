@@ -67,16 +67,19 @@ export default class About extends Component {
                             })}
                         </ol>
                         <div className = "carousel-inner">
-                            {data.map((pic, index) => {
+                            {data.map((item, index) => {
                                 const carouselClass = index == 0 ? "carousel-item active" : "carousel-item"
                                 return (
                                     <div className={carouselClass}>
                                         <img 
 											className = "d-block mx-auto"
-                                            style={{height:"550px", width: "60%"}}
-                                            src={require(`./InteractionsCarousel/${pic.name}`)} 
+                                            style={{height:"550px", width: "60%", filter: "brightness(0.7)"}}
+                                            src={require(`./InteractionsCarousel/${item.name}`)} 
                                             alt="" 
                                         />
+										<div class="carousel-caption">
+											<h3 style={{color: "#ffff"}}> {item.text} </h3>
+									  	</div>
                                     </div>
                                 )
                             })}

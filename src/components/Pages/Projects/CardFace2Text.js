@@ -54,7 +54,7 @@ function SimpleCard(props) {
       <Card className={classes.card}>
 		  <CardMedia
 			  className={classes.media}
-			  image="https://raw.githubusercontent.com/shreyjani/AI_Hackathon/master/test2.png"
+			  image="img/project/Face2Text.png"
 			  title="Face2Text"
         	/>
         <CardContent>

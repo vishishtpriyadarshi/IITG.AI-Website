@@ -51,30 +51,35 @@ function SimpleCard(props) {
 
   return (
     <div>
-      <Card className={classes.card}>
-		  <CardMedia
-			  className={classes.media}
-			  image="https://raw.githubusercontent.com/IITGuwahati-AI/AnimalAI/master/documentation/PrefabsPictures/steampunkFOURcrop.png"
-			  title="Animal AI"
+    	<Card className={classes.card}>
+			<CardMedia
+				className={classes.media}
+				image="https://raw.githubusercontent.com/IITGuwahati-AI/AnimalAI/master/documentation/PrefabsPictures/steampunkFOURcrop.png"
+			 	title="Animal AI"
         	/>
-        <CardContent>
-          {/* <Typography className={classes.title} color="textSecondary">
-            Word of the Day
-          </Typography> */}
-          <Typography variant="headline" component="h3">
-            Animal AI
-          </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            AnimalAI-Olympics
-          </Typography>
-          <Typography component="p">
-            We implemented a reformed architecture which uses Proximal Policy Optimization for training the agent and also uses Behavior Cloning for incorporating Expert Trajectories.
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button size="small" color="primary" align="center"/*onClick={handleClick}*/ href = 'https://github.com/IITGuwahati-AI/AnimalAI'>Learn More <ChevronRightRounded /></Button>
-        </CardActions>
-      </Card>
+        	<CardContent>
+				{/* <Typography className={classes.title} color="textSecondary">
+				Word of the Day
+				</Typography> */}
+				<Typography variant="headline" component="h3">
+					Animal AI
+				</Typography>
+          
+				<Typography className={classes.pos} color="textSecondary">
+            		AnimalAI-Olympics
+          		</Typography>
+          		
+				<Typography component="p">
+            		We implemented a reformed architecture which uses Proximal Policy Optimization for training the agent and also uses Behavior Cloning for incorporating Expert Trajectories.
+          		</Typography>
+        	</CardContent>
+			
+        	<CardActions>
+          		<Button size="small" color="primary" align="center"/*onClick={handleClick}*/ href = 'https://github.com/IITGuwahati-AI/AnimalAI'>Learn More <ChevronRightRounded />
+				</Button>
+        	</CardActions>
+			
+      	</Card>
     </div>
   );
 }

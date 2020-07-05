@@ -49,10 +49,10 @@ class PageWrapper extends Component{
                 </div>*/}
 				
 				
-				<nav class="navbar navbar-expand-sm mb-4 fixed-top" id="nav1" style={{margin: 0}}>
+				<nav class="navbar navbar-expand-sm mb-4 fixed-top" style={{margin: 0}}>
 					<Link class="navbar-brand" to="/">
 						
-                        	<Link to="/"><img src={homeLogo} height="80" alt=""/></Link>
+                        	<Link to="/"><img src={homeLogo} height="50" alt=""/></Link>
                     	
 					</Link>
 					

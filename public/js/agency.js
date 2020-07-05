@@ -1,4 +1,4 @@
-(function($) {
+{/*(function($) {
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing
@@ -38,9 +38,21 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+	
+	
 
-})(jQuery); // End of use strict
 
+})(jQuery); // End of use strict*/}
+
+$(document).ready(function() {
+  $(window).on("scroll", function() {
+    if ($(window).scrollTop() >= 20) {
+      $(".navbar").addClass("compressed");
+    } else {
+      $(".navbar").removeClass("compressed");
+    }
+  });
+});
 
 $(document).ready(function()
 {
@@ -78,6 +90,7 @@ $(document).ready(function()
 	initParallax();
 	initScrolling();
 
+	
 	/* 
 
 	2. Set Header

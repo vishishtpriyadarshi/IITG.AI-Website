@@ -395,6 +395,28 @@ section
 3.1 Image-background
 *********************************/
 
+.image {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background: url(http://lorempixel.com/300/300);
+}
+.image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.8s;
+  opacity: 0;
+  background: url(http://lorempixel.com/300/200);
+  background-size: 100% 100%;
+}
+.image:hover:before {
+  opacity: 0.8;
+}
+
 .img_section {
     width: 100%;
 }
@@ -511,32 +533,43 @@ section
 	font-weight: 700;
 }
 
-#nav1
+.navbar.compressed {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  -webkit-transition:padding 0.6s linear;
+  -moz-transition:padding 0.6s linear;  
+  -o-transition:padding 0.6s linear;         
+  transition:padding 0.6s linear;  
+}
+
+
+.navbar
 {  
     background-color: #283e3e; 
     opacity: 0.8; 
-    filter:(opacity=80);       
+    filter:(opacity=80);     
+	transition: all 0.4s ease;
 }
 
-#nav1 ul li
+.navbar ul li
 {
 	display: inline-block;
 	margin-right: 65px;
 }
-#nav1 ul li a:hover
+.navbar ul li a:hover
 {
-	color: #005681;
+	color: #ffd700;
     -webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-#nav1 ul li:last-child
+.navbar ul li:last-child
 {
 	margin-right: 0px;
 }
-#nav1 ul li a
+.navbar ul li a
 {
 	display: block;
 	font-size: 15px;
@@ -544,7 +577,7 @@ section
 	line-height: 40.51px;
 	color: rgb(255, 247, 247);
 }
-#nav1 ul li.active a
+.navbar ul li.active a
 {
 	font-weight: 700;
 }
