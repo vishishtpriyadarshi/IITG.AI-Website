@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Calender() {
+function Calendar() {
     return (
         <div className = "bg-light" style={{textAlign: "center", marginTop: "6.5%"}}>
 			<br />
@@ -19,4 +19,4 @@ function Calender() {
     )
 }
 
-export default Calender
+export default Calendar;

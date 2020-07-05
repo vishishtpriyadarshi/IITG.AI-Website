@@ -19,7 +19,7 @@ class PageWrapper extends Component{
                             <li><NavLink to="/initiatives">Initiatives</NavLink></li>
                             <li><NavLink to="/people">People</NavLink></li>
 							<li><NavLink to="/blogs">Blogs</NavLink></li>
-                            <li><NavLink to="/calender">Calendar</NavLink></li>
+                            <li><NavLink to="/calendar">Calendar</NavLink></li>
                             <li><NavLink to="/contact">Contact</NavLink></li>
 							
                         </ul>

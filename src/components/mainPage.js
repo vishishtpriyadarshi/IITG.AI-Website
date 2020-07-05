@@ -12,14 +12,13 @@ import Projects from './Pages/Projects';
 import Initiatives from './Pages/Initiatives/Initiatives'
 import People from './Pages/People';
 import ProjectHome from './Pages/Projects/ProjectHome';
-import Calender from './Pages/Calender';
+import Calendar from './Pages/Calendar';
 import Contact from './Pages/Contact';
 import Blogs from './Pages/Blogs';
 import Hackathons from './Pages/Initiatives/Hackathons';
 import PaperDiscussions from './Pages/Initiatives/paperDiscussions';
 import Alumni from './Pages/Initiatives/alumni';
 import InterIIT from './Pages/Initiatives/interIIT';
-import Maintenance from './Pages/Maintenance';
 
 function NotFound() {
 	  return (
@@ -58,18 +57,13 @@ export default function MainPage() {
 			/>
           	
 			<Route exact
-				path = "/calender"
-				component = {Calender} 
+				path = "/calendar"
+				component = {Calendar} 
 			/>
 			
 			<Route exact
 				path = "/contact" 
 				component = {Contact} 
-			/>
-			
-			<Route exact 
-				path = "/Maintenance" 
-				component = {Maintenance} 
 			/>
 			
 			<Route exact 
