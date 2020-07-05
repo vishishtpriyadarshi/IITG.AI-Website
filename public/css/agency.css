@@ -58,7 +58,6 @@ COLOR PALETTE
 	  background: radial-gradient(ellipse at center, #14132D, #0F4C6F);*/}
 	
 	
-	
 	background: rgba(147,206,222,1);
 	background: -moz-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 18%, rgba(137,200,218,1) 22%, rgba(117,189,209,1) 30%, rgba(117,189,209,1) 38%, rgba(73,165,191,1) 59%, rgba(73,165,191,1) 60%, rgba(73,165,191,1) 79%);
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(18%, rgba(147,206,222,1)), color-stop(22%, rgba(137,200,218,1)), color-stop(30%, rgba(117,189,209,1)), color-stop(38%, rgba(117,189,209,1)), color-stop(59%, rgba(73,165,191,1)), color-stop(60%, rgba(73,165,191,1)), color-stop(79%, rgba(73,165,191,1)));

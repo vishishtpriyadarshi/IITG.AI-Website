@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../Common/Header';
-import bgImage from '../assets/img/IITG.png';
+import bgImage from '../assets/img/IITG2.jpg';
 
 class Contact extends Component{
 	render(){
