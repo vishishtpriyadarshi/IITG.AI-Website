@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, Redirect } from "react-router-dom";
 
-
+import axios from 'axios';
 import Header from './Common/Header';
 import Footer from './Common/Footer';
 import Landing from './Common/Landing';
@@ -14,6 +14,7 @@ import People from './Pages/People';
 import ProjectHome from './Pages/Projects/ProjectHome';
 import Calender from './Pages/Calender';
 import Contact from './Pages/Contact';
+import Blogs from './Pages/Blogs';
 import Hackathons from './Pages/Initiatives/Hackathons';
 import PaperDiscussions from './Pages/Initiatives/paperDiscussions';
 import Alumni from './Pages/Initiatives/alumni';
@@ -89,6 +90,11 @@ export default function MainPage() {
 			<Route exact 
 				path = "/interIIT"
 				component = {InterIIT}
+			/>
+			
+			<Route exact 
+				path = "/blogs"
+				component = {Blogs}
 			/>
           
 			<Route exact

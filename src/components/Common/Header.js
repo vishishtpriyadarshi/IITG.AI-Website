@@ -18,13 +18,14 @@ class PageWrapper extends Component{
                             <li><NavLink to="/projects">Projects</NavLink></li>
                             <li><NavLink to="/initiatives">Initiatives</NavLink></li>
                             <li><NavLink to="/people">People</NavLink></li>
+							<li><NavLink to="/blogs">Blogs</NavLink></li>
                             <li><NavLink to="/calender">Calendar</NavLink></li>
                             <li><NavLink to="/contact">Contact</NavLink></li>
 							
                         </ul>
                     </nav>
 
-                    <div className="hamburger_container bez_1">
+                    <div className="hamburger_container bez_1"  data-target = "hamburger_container">
                         <i className="fa fa-bars trans_200"></i>
                     </div>
 
@@ -38,7 +39,8 @@ class PageWrapper extends Component{
                             <li className="menu_mm"><NavLink to="/about">About Us</NavLink></li>
                             <li className="menu_mm"><NavLink to="/projects">Projects</NavLink></li>
                             <li className="menu_mm"><NavLink to="/initiatives">Initiatives</NavLink></li>
-                            <li className="menu_mm"><NavLink to="/team">Team</NavLink></li>
+                            <li className="menu_mm"><NavLink to="/people">People</NavLink></li>
+							<li className="menu_mm"><NavLink to="/blogs">Blogs</NavLink></li>
                             <li className="menu_mm"><a href="/calendar">Calendar</a></li>
                             <li className="menu_mm"><NavLink to="/contact">Contact</NavLink></li>
                         
