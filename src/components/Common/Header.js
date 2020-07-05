@@ -6,7 +6,7 @@ class PageWrapper extends Component{
 	render(){
 		return(
             <div>
-                <header className="header d-flex flex-row justify-content-end align-items-center trans_200">
+				{/*<header className="header d-flex flex-row justify-content-end align-items-center trans_200">
 
                     <div className="logo mr-auto">
                         <Link to="/"><img src={homeLogo} height="80" alt=""/></Link>
@@ -46,8 +46,51 @@ class PageWrapper extends Component{
                         
                         </ul>
                     </div>
-                </div>
-            </div>
+                </div>*/}
+				
+				
+				<nav class="navbar navbar-expand-sm mb-4 fixed-top" id="nav1" style={{margin: 0}}>
+					<Link class="navbar-brand" to="/">
+						
+                        	<Link to="/"><img src={homeLogo} height="80" alt=""/></Link>
+                    	
+					</Link>
+					
+			  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
+							<span class="navbar-toggler-icon"> <i className="fa fa-bars trans_200"></i> </span>
+						</button>
+		
+						<div class="collapse navbar-collapse" id="mobile-nav" data-target=".navbar-collapse" data-toggle="collapse">
+
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item" >
+									<Link class="nav-link" to="/about">About</Link>
+								</li>
+
+								<li class="nav-item">
+									<Link class="nav-link" to="/projects">Projects</Link>
+								</li>
+
+								<li class="nav-item">
+									<Link class="nav-link" to="/initiatives">Initiatives</Link>
+								</li>
+
+								<li class="nav-item">
+									<Link class="nav-link" to="/people">People</Link>
+								</li>
+
+								<li class="nav-item">
+									<Link class="nav-link" to="/calendar">Calendar</Link>
+								</li>
+
+								<li class="nav-item">
+									<Link class="nav-link" to="/contact">Contact Us</Link>
+								</li>
+							
+							</ul>
+						</div>
+				</nav>
+        	</div>
         );
 	}
 }

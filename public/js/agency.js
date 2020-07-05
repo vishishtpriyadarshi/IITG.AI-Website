@@ -42,7 +42,6 @@
 })(jQuery); // End of use strict
 
 
-
 $(document).ready(function()
 {
 	"use strict";
