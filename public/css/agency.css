@@ -343,6 +343,33 @@ section
 	height: 130% !important;
 }
 
+
+
+/******************************
+Responsive iFrames
+*******************************/
+
+.iframeWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+	padding-left: 50px;
+    padding-right: 50px;
+    height: 0;
+	
+}
+.iframeWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	padding-left: 25px;
+    padding-right: 25px;
+	margin: auto;
+}
+
+
 /*********************************
 3. Home
 *********************************/
@@ -580,6 +607,19 @@ section
 .navbar ul li.active a
 {
 	font-weight: 700;
+}
+
+.container2
+{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 17px;
+	padding-left: auto;
+	padding-right: auto;
+	text-align: center;
 }
 
 /*********************************

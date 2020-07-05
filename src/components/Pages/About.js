@@ -10,14 +10,23 @@ class About extends Component {
             <div className="bg-light">
                 <Jumbotron 
                     title="IITG.ai - Student community" 
-                    description="The AI community is lead by a dedicated group of student volunteers. Each one of them brings unique insights and expertise across various domains of AI. Our sense of motivation comes from a desire to solve challenging problems and we do this by  providing a platform for motivated students to be a part of a community that will aid in their pursuit of becoming a world class developers or researchers."
+                    description=" Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text "
                     backgroundImage="about/Group.png"
                 />
 				<br />
 				<div className="section">
-                    <h2 className="section-title fancy-heading"> What we do </h2>
-						<div className = "container" style={{margin : "auto"}}>
-					ymkhana, this was the core vision we wanted to materialize - encourage students to view each other as collaborators to learn from and grow together with. And to help them realise that their network of support extends beyond their present peers in the form of seniors, alumni and Professors. The several paper discussion sessions, workshops, alumni webinars and a hackathon have been important milestones in that direction. Every member of the club is very excited about the future of the club and we have a ton of exciting things planned
+						<div className = "container2" style={{margin : "auto", fontSize: "250px !important"}}>
+							“I joined the club to get mentorship and work with similar-minded people.”< br/>
+“I want to work in AI to build something that can bring a meaningful change in the world.”< br/>
+“We really enjoy discussing new ideas and papers together.”< br/>
+“I like that we are respecting the research process and taking our time to deeply understand how things actually work.” <br />
+“I want to solve intelligence by understanding how the brain works and drawing inspiration from other related fields like neuroscience.”< br/>
+“I want to understand the theory behind why these algorithms learn what they do.”< br/>
+“I believe that a combination of AI and human knowledge is better than both of them individually.”< br/> “I am excited about the real-life applications of advancements in computer vision.”< br/>
+“I am very happy that we are thinking about the long-term and making real progress compared to just building prototypes without really understanding how things work.” < br/>< br/>
+These are some of the excerpts shared by the members of the club when asked about their motivation to work in AI and their experience.
+This community is led by a dedicated group of student volunteers. Each one of them brings unique insights and expertise across various domains of AI. 
+We aim to provide a platform for like-minded people to come together and discuss ideas. In the process equipping them with sufficient theoretical and practical knowledge to take a career path in AI either as researchers or developers. We are excited about the possibilities and challenges that the field offers and we believe you should be too!
 					</div>
 				</div>
 				

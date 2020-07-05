@@ -16,7 +16,7 @@ class People extends Component{
 								{/*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*/}
 							</div>
 							<div class="row">
-								<div class="col-lg-4">
+								<div class="col-lg-12">
 									<div class="team-member">
 										<img class="mx-auto rounded-circle" src="img/team/MalePlaceholder.jpg" alt="" />
 										<h4>Dr.Ashish Anand</h4>
@@ -26,11 +26,15 @@ class People extends Component{
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
 									</div>
 								</div>
+								
+							</div>
+							
+							<div class="row">
 								<div class="col-lg-4">
 									<div class="team-member">
-										<img class="mx-auto rounded-circle" src="img/team/MalePlaceholder.jpg" alt="" />
-										<h4>ABC</h4>
-										<p class="text-muted">XYZ</p>
+										<img class="mx-auto rounded-circle" src="img/team/AmanDalmia.png" alt="" />
+										<h4>Aman Dalmia</h4>
+										<p class="text-muted">Co-founder of IITG.ai</p>
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -38,9 +42,19 @@ class People extends Component{
 								</div>
 								<div class="col-lg-4">
 									<div class="team-member">
-										<img class="mx-auto rounded-circle" src="img/team/MalePlaceholder.jpg" alt="" />
-										<h4>ABC</h4>
-										<p class="text-muted">XYZ</p>
+										<img class="mx-auto rounded-circle" src="img/team/KonarkJain.jpg" alt="" />
+										<h4>Konark Jain</h4>
+										<p class="text-muted">Co-founder of IITG.ai</p>
+										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="team-member">
+										<img class="mx-auto rounded-circle" src="img/team/ApoorvaKumar.jpg" alt="" />
+										<h4>Apoorva Kumar</h4>
+										<p class="text-muted">Co-founder of IITG.ai</p>
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -49,31 +63,11 @@ class People extends Component{
 							</div>
 							
 							<div class="row">
-								<div class="col-lg-4">
+								<div class="col-lg-12">
 									<div class="team-member">
-										<img class="mx-auto rounded-circle" src="img/team/MalePlaceholder.jpg" alt="" />
-										<h4>ABC</h4>
-										<p class="text-muted">XYZ</p>
-										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
-										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="team-member">
-										<img class="mx-auto rounded-circle" src="img/team/MalePlaceholder.jpg" alt="" />
-										<h4>ABC</h4>
-										<p class="text-muted">XYZ</p>
-										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
-										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="team-member">
-										<img class="mx-auto rounded-circle" src="img/team/MalePlaceholder.jpg" alt="" />
-										<h4>ABC</h4>
-										<p class="text-muted">XYZ</p>
+										<img class="mx-auto rounded-circle" src="img/team/AdityaMehndiratta.png" alt="" />
+										<h4>Aditya Mehndiratta</h4>
+										<p class="text-muted">Ex-Secretary, Reinforcement Learning Head (current)</p>
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -133,12 +127,12 @@ class People extends Component{
 								</div>
 								<div class="col-lg-4">
 									<div class="team-member">
-										<img class="mx-auto rounded-circle" src="img/team/MalePlaceholder.jpg" alt="" />
+										<img class="mx-auto rounded-circle" src="img/team/Vishisht.jpg" alt="" />
 										<h4>Vishisht Priyadarshi</h4>
 										<p class="text-muted">Web Development Head</p>
-										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+										<a class="btn btn-dark btn-social mx-2" href="https://github.com/vishishtpriyadarshi"><i class="fab fa-github"></i></a>
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+										<a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/vishisht-priyadarshi-34068b179/"><i class="fab fa-linkedin-in"></i></a>
 									</div>
 								</div>
 								<div class="col-lg-4">
