@@ -10,7 +10,7 @@ export default class PortfolioItem extends Component {
         if (this.props.image) {
             return (
                 <div className="card_image">
-                    <img className="card-img-top" src={require(`../assets/img/${this.props.image}`)} alt=""/>
+                    <img className="card-img-top" src={require(`../../../public/img/${this.props.image}`)} alt=""/>
                 </div>
             )
         }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Jumbotron from '../Jumbotron';
 
 
@@ -10,7 +9,7 @@ export default class About extends Component {
                 <Jumbotron 
                     title="Paper Discussions" 
                     description="IITG.ai conducts weekly discussion sessions on research papers in various areas of ML"
-                    backgroundImage="paperDiscussion.jpg"
+                    backgroundImage="initiatives/paperDiscussion.jpg"
                 />
 				
                 <br />

@@ -9,7 +9,7 @@ import Landing from './Common/Landing';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
-import Initiatives from './Pages/Initiatives'
+import Initiatives from './Pages/Initiatives/Initiatives'
 import People from './Pages/People';
 import ProjectHome from './Pages/Projects/ProjectHome';
 import Calender from './Pages/Calender';

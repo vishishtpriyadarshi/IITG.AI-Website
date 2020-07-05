@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 
-import retreat from './retreat';
+import data from './aboutCarouselData';
 import Jumbotron from './Jumbotron';
 import PortfolioItem from './PortfolioItem';
 
-export default class About extends Component {
+class About extends Component {
     render() {
         return(
             <div className="bg-light">
                 <Jumbotron 
                     title="IITG.ai - Student community" 
                     description="The AI community is lead by a dedicated group of student volunteers. Each one of them brings unique insights and expertise across various domains of AI. Our sense of motivation comes from a desire to solve challenging problems and we do this by  providing a platform for motivated students to be a part of a community that will aid in their pursuit of becoming a world class developers or researchers."
-                    backgroundImage="Group.png"
+                    backgroundImage="about/Group.png"
                 />
 				<br />
 				<div className="section">
@@ -84,13 +84,13 @@ export default class About extends Component {
                         }}>
                     
                         <ol class="carousel-indicators">
-                            {retreat.map((pic, index) => {
+                            {data.map((pic, index) => {
                                 const active = index == 0 ? "active" : ""
                                 return <li data-target="#carouselExampleIndicators" data-slide-to={index} class={active}> </li>                                
                             })}
                         </ol>
                         <div class="carousel-inner">
-                            {retreat.map((pic, index) => {
+                            {data.map((pic, index) => {
                                 const carouselClass = index == 0 ? "carousel-item active" : "carousel-item"
                                 return (
                                     <div className={carouselClass}>
@@ -122,3 +122,4 @@ export default class About extends Component {
 }
 
 
+export default About;

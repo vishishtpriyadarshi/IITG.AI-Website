@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class Jumbotron extends Component {
     render() {
-        const backgroundImage = require(`../assets/img/${this.props.backgroundImage}`);
+        const backgroundImage = require(`../../../public/img/${this.props.backgroundImage}`);
         return(
             <div className="home_small">
                 <div className="home_background_container">

@@ -1,30 +1,17 @@
 import React, { Component } from 'react';
+
+import { makeStyles } from '@material-ui/core/styles';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import Jumbotron from '../Jumbotron';
 import Grid from "@material-ui/core/Grid";
-import Demo from './Card';
+
 import FakeNews from './CardFakeNews';
 import AnimalAI from './CardAnimalAI';
 import CricketCV from './CardCricketCV';
-import MaskRCNN from './CardMaskRCNN';
 import NTM from './CardNTM';
 import StyleGAN from './CardStyleGAN';
 import Face2Text from './CardFace2Text';
 
-import PropTypes from 'prop-types';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Box from '@material-ui/core/Box';
-import Container from '@material-ui/core/Container';
-import Fab from '@material-ui/core/Fab';
-import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-import Zoom from '@material-ui/core/Zoom';
-
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import red from '@material-ui/core/colors/red';
-import Jumbotron from '../Jumbotron';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -72,7 +59,7 @@ class ProjectHome extends Component {
                 <Jumbotron 
                     title="Projects Section" 
                     description="Phasellus sapien augue, accumsan eu magna pellentesque, ornare porttitor erat. Aliquam a risus in lorem mattis varius. Morbi hendrerit justo eget tristique ornare. Morbi rhoncus eget ex vitae feugiat. In vitae feugiat velit. Proin rhoncus ut odio non accumsan. Phasellus hendrerit non nulla in rhoncus. Suspendisse id orci sodales, consectetur eros semper, placerat enim."
-                    backgroundImage="session.jpg"
+                    backgroundImage="project/session.jpg"
                 />
 				<React.Fragment>
 					<Grid container spacing={24} justify="center">
