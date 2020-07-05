@@ -24,12 +24,12 @@ const useStylesGrid = makeStyles(theme => ({
   },
   paper: {
     padding: "2% 5% 5% 5%",
-    width: 1200,
+    width: "auto",
     margin: "auto",
     color: theme.palette.primary.contrastText
   },
   media: {
-    height: 250,
+    height: "auto",
     width: '100%',
     margin: 'auto'
   }
@@ -43,7 +43,7 @@ export default function CenteredGrid() {
 	  
     <div className={classes.root}>
 		<br />
-    	<Paper className={classes.paper} elevation={3}> 
+    	<Paper item sm={12} md={6} className={classes.paper} elevation={3}> 
 			<section class="page-section bg-light" id="team">
 				<div class="container">
 					<div class="text-center">
@@ -54,7 +54,7 @@ export default function CenteredGrid() {
 			</section>
 			<br />
 			<Grid container spacing={6} justify="center" alignItems="center">
-				<Grid item xs={6} style={{ display: "flex"}}>
+				<Grid item sm={12} md={6} style={{ display: "flex"}}>
 					<Card className={classes.root}>
 						<CardActionArea>
 							<Link to='/interIIT'>
@@ -71,7 +71,7 @@ export default function CenteredGrid() {
 									Inter IIT
 								</Typography>
 								<Typography variant="body2" color="textSecondary" component="p">
-									Some Intro text on Inter-IIT
+									Phasellus sit amet tempus augue. Aliquam eget ipsum metus. Nunc a tellus eros. Fusce ac ante iaculis, lobortis ex porta, suscipit nulla. Integer placerat eleifend lectus, sed tristique erat lacinia et. Duis velit lorem, tincidunt laoreet fringilla in, dictum at dolor. Nunc augue mauris, blandit ac rhoncus eget, dignissim non justo. Duis scelerisque semper euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 								</Typography>
 							</CardContent>
 
@@ -87,7 +87,7 @@ export default function CenteredGrid() {
 					</Card>
 				</Grid>
         
-				<Grid item xs={6} style={{ display: "flex" }}>
+				<Grid item sm={12} md={6} style={{ display: "flex" }}>
 					<Card className={classes.root}>
 						<CardActionArea>
 							<Link to='/hackathons'>
@@ -105,7 +105,7 @@ export default function CenteredGrid() {
 								</Typography>
 
 								<Typography variant="body2" color="textSecondary" component="p">
-								Some Intro text on Hackathons
+									Phasellus sit amet tempus augue. Aliquam eget ipsum metus. Nunc a tellus eros. Fusce ac ante iaculis, lobortis ex porta, suscipit nulla. Integer placerat eleifend lectus, sed tristique erat lacinia et. Duis velit lorem, tincidunt laoreet fringilla in, dictum at dolor. Nunc augue mauris, blandit ac rhoncus eget, dignissim non justo. Duis scelerisque semper euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 								</Typography>
 							</CardContent>
 						</CardActionArea>
@@ -121,7 +121,7 @@ export default function CenteredGrid() {
 				</Grid>
 				
 				
-				<Grid item xs={6} style={{ display: "flex" }}>
+				<Grid item sm={12} md={6} style={{ display: "flex" }}>
 					<Card className={classes.root}>
 						<CardActionArea>
 							<Link to='/paperdiscussions'>
@@ -139,7 +139,7 @@ export default function CenteredGrid() {
 								</Typography>
 
 								<Typography variant="body2" color="textSecondary" component="p">
-								Some Intro text on Paper Discussions
+									Phasellus sit amet tempus augue. Aliquam eget ipsum metus. Nunc a tellus eros. Fusce ac ante iaculis, lobortis ex porta, suscipit nulla. Integer placerat eleifend lectus, sed tristique erat lacinia et. Duis velit lorem, tincidunt laoreet fringilla in, dictum at dolor. Nunc augue mauris, blandit ac rhoncus eget, dignissim non justo. Duis scelerisque semper euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 								</Typography>
 							</CardContent>
 						</CardActionArea>
@@ -154,7 +154,7 @@ export default function CenteredGrid() {
 				
 				
 				
-				<Grid item xs={6} style={{ display: "flex" }} padding={20}>
+				<Grid item sm={12} md={6} style={{ display: "flex" }} padding={20}>
 					<Card className={classes.root}>
 						<CardActionArea>
 							<Link to='/alumni'>
@@ -172,7 +172,7 @@ export default function CenteredGrid() {
 								</Typography>
 
 								<Typography variant="body2" color="textSecondary" component="p">
-								Some Intro text on Alumni Interactions
+									Phasellus sit amet tempus augue. Aliquam eget ipsum metus. Nunc a tellus eros. Fusce ac ante iaculis, lobortis ex porta, suscipit nulla. Integer placerat eleifend lectus, sed tristique erat lacinia et. Duis velit lorem, tincidunt laoreet fringilla in, dictum at dolor. Nunc augue mauris, blandit ac rhoncus eget, dignissim non justo. Duis scelerisque semper euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 								</Typography>
 							</CardContent>
 						</CardActionArea>
