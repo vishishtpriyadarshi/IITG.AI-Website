@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import homeLogo from '../assets/img/IITG.ai_Logo.png';
 
 class PageWrapper extends Component{
@@ -57,7 +57,7 @@ class PageWrapper extends Component{
 					</Link>
 					
 			  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
-							<span class="navbar-toggler-icon"> <i className="fa fa-bars trans_200"></i> </span>
+							<span class="navbar-toggler-icon"> <i className="fa fa-bars trans_200" style={{color: "white"}}></i> </span>
 						</button>
 		
 						<div class="collapse navbar-collapse" id="mobile-nav" data-target=".navbar-collapse" data-toggle="collapse">

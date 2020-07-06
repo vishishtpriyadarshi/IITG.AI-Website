@@ -4,7 +4,7 @@ import ProjectBlock from '../blocks/ProjectBlock'
 export class Projects extends Component {
     render() {
         return (
-            <>
+            <div>
                 <div style={{paddingBottom: "4%"}} className="font-family">
                     <h1 style={{textAlign: 'center', color: "#000000", fontWeight: '1100'}}>Projects</h1>
                 </div>
@@ -26,7 +26,7 @@ export class Projects extends Component {
                     project_link= "https://github.com/WhenDustSettles/Neural-Turing-Machine"
                     project_image= "../assets/img/Logo.png"
                 />
-            </>
+            </div>
         )
     }
 }

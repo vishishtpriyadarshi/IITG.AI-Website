@@ -54,15 +54,16 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function()
+
+/*$(document).ready(function()
 {
 	"use strict";
 
-	/* 
+	
 
-	1. Vars and Inits
+	// 1. Vars and Inits
 
-	*/
+
 
 	var searchActive = false;
 	var menuActive = false;
@@ -91,11 +92,10 @@ $(document).ready(function()
 	initScrolling();
 
 	
-	/* 
+	
+	// 2. Set Header
 
-	2. Set Header
-
-	*/
+	
 
 	function setHeader()
 	{
@@ -127,11 +127,11 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
 
-	4. Init Main Slider
 
-	*/
+	// 4. Init Main Slider
+
+
 
 	function initMainSlider()
 	{
@@ -225,11 +225,9 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
 
-	7. Init Hamburger
+	// 7. Init Hamburger
 
-	*/
 
 	function initHamburger()
 	{
@@ -279,4 +277,4 @@ $(document).ready(function()
 	}
 
 	
-});
+});*/

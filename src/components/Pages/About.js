@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 import data from './aboutCarouselData';
-import Jumbotron from './Jumbotron';
+import PageHeader from './PageHeader';
 import PortfolioItem from './PortfolioItem';
 
 class About extends Component {
     render() {
         return(
             <div className="bg-light">
-                <Jumbotron 
+                <PageHeader 
                     title="IITG.ai - Student community" 
                     description=" Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text  Some Random text "
                     backgroundImage="about/Group.png"
@@ -94,13 +94,13 @@ We aim to provide a platform for like-minded people to come together and discuss
                     
                         <ol class="carousel-indicators">
                             {data.map((pic, index) => {
-                                const active = index == 0 ? "active" : ""
+                                const active = index === 0 ? "active" : ""
                                 return <li data-target="#carouselExampleIndicators" data-slide-to={index} class={active}> </li>                                
                             })}
                         </ol>
                         <div class="carousel-inner">
                             {data.map((pic, index) => {
-                                const carouselClass = index == 0 ? "carousel-item active" : "carousel-item"
+                                const carouselClass = index === 0 ? "carousel-item active" : "carousel-item"
                                 return (
                                     <div className={carouselClass}>
                                         <img 

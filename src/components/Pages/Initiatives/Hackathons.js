@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 import data from './hackathonsData';
-import Jumbotron from '../Jumbotron';
+import PageHeader from '../PageHeader';
 import HackathonCollection from './HackathonsCollection';
 
 export default class About extends Component {
     render() {
         return(
             <div className="bg-light">
-                <Jumbotron 
+                <PageHeader 
                     title="Hackathons" 
                     description="What better way to showcase your skills in AI/ML than to participate in a hackathon"
                     backgroundImage="initiatives/Hackathon2.jpg"

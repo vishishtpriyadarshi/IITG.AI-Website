@@ -12,7 +12,7 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Link } from 'react-router-dom';
 
-import Jumbotron from '../Jumbotron';
+import PageHeader from '../PageHeader';
 
 const useStylesGrid = makeStyles(theme => ({
   root: {
@@ -41,7 +41,7 @@ export default function CenteredGrid() {
 
   return (
     <div className="bg-light">
-		<Jumbotron 
+		<PageHeader 
                     title="Initiatives" 
                     description="Phasellus sapien augue, accumsan eu magna pellentesque, ornare porttitor erat. Aliquam a risus in lorem mattis varius. Morbi hendrerit justo eget tristique ornare. Morbi rhoncus eget ex vitae feugiat. In vitae feugiat velit. Proin rhoncus ut odio non accumsan. Phasellus hendrerit non nulla in rhoncus. Suspendisse id orci sodales, consectetur eros semper, placerat enim."
                     backgroundImage="initiatives/Group.png"

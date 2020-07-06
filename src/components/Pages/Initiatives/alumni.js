@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
-import Jumbotron from '../Jumbotron';
-import PortfolioItem from '../PortfolioItem';
+import PageHeader from '../PageHeader';
 import data from './alumniData';
 
 export default class About extends Component {
     render() {
         return(
             <div className="bg-light">
-                <Jumbotron 
+                <PageHeader 
                     title="Alumni Webinars/Professor Interaction" 
                     description="IITG.ai truly believes that in order to grow better, we need to have better connections with our alumni and also Professors. For this, we have started a webinar series where notable alumni in AI/ML share their experience /career paths and current work. Alumni who have already given talks include Aman Dalmia(Wadhwani AI), Vivek Gupta(founder SIGML), Rishabh Jangir(ex-Robotics club secy), and professors like Dr Ashish Anand."
                     backgroundImage="initiatives/sail.jpg"
@@ -62,13 +61,13 @@ export default class About extends Component {
                     
                         <ol className = "carousel-indicators">
                             {data.map((pic, index) => {
-                                const active = index == 0 ? "active" : ""
+                                const active = index === 0 ? "active" : ""
                                 return <li data-target="#carouselExampleIndicators" data-slide-to={index} className={active}> </li>                                
                             })}
                         </ol>
                         <div className = "carousel-inner">
                             {data.map((item, index) => {
-                                const carouselClass = index == 0 ? "carousel-item active" : "carousel-item"
+                                const carouselClass = index === 0 ? "carousel-item active" : "carousel-item"
                                 return (
                                     <div className={carouselClass}>
                                         <img 

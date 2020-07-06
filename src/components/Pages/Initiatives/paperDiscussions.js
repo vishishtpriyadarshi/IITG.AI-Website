@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Jumbotron from '../Jumbotron';
+import PageHeader from '../PageHeader';
 
 
 export default class About extends Component {
     render() {
         return(
             <div className="bg-light">
-                <Jumbotron 
+                <PageHeader 
                     title="Paper Discussions" 
                     description="IITG.ai conducts weekly discussion sessions on research papers in various areas of ML"
                     backgroundImage="initiatives/paperDiscussion.jpg"

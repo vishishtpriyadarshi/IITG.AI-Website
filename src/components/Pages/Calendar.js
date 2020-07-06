@@ -11,7 +11,7 @@ function Calendar() {
                 style={{border: "solid 1px #777"}} 
                 width="1100" 
                 height="650" 
-                frameborder="0" 
+                frameBorder="0" 
                 scrolling="no"
                 title="Meeting Calender"
             	/>

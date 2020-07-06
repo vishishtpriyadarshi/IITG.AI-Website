@@ -8,7 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import ChevronRightRounded from '@material-ui/icons/ChevronRightRounded';
-import { useHistory } from "react-router-dom";
+{/*import { useHistory } from "react-router-dom";*/}
 
 const styles = {
   card: {
@@ -43,12 +43,12 @@ function SimpleCard(props) {
   const { classes } = props;
   //const bull = <span className={classes.bullet}>•</span>;
 	
-  let history = useHistory();
+	{/*let history = useHistory();
 
   function handleClick() {
     //history.push("https://github.com/IITGuwahati-AI/Fake-News-Detection");
-  }
-
+  }*/}
+	
   return (
     <div>
       <Card className={classes.card}>

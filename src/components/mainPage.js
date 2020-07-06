@@ -1,14 +1,12 @@
 import React from 'react';
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
-import axios from 'axios';
 import Header from './Common/Header';
 import Footer from './Common/Footer';
 import Landing from './Common/Landing';
 
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Projects from './Pages/Projects';
 import Initiatives from './Pages/Initiatives/Initiatives'
 import People from './Pages/People';
 import ProjectHome from './Pages/Projects/ProjectHome';

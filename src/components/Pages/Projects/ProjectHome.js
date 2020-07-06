@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
-import { makeStyles } from '@material-ui/core/styles';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import Jumbotron from '../Jumbotron';
+import PageHeader from '../PageHeader';
 import Grid from "@material-ui/core/Grid";
 
 import FakeNews from './CardFakeNews';
@@ -12,8 +10,10 @@ import NTM from './CardNTM';
 import StyleGAN from './CardStyleGAN';
 import Face2Text from './CardFace2Text';
 
+{/*import { makeStyles } from '@material-ui/core/styles';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';*/}
 
-const useStyles = makeStyles((theme) => ({
+{/*const useStyles = makeStyles((theme) => ({
   root: {
     position: 'fixed',
     right: theme.spacing(2),
@@ -40,7 +40,7 @@ const theme = createMuiTheme({
     ].join(','),
   },
 });
-
+*/}
 
 class ProjectHome extends Component {
 	
@@ -56,7 +56,7 @@ class ProjectHome extends Component {
 					</div>
 				</section>*/}
 			
-                <Jumbotron 
+                <PageHeader 
                     title="Projects Section" 
                     description="Phasellus sapien augue, accumsan eu magna pellentesque, ornare porttitor erat. Aliquam a risus in lorem mattis varius. Morbi hendrerit justo eget tristique ornare. Morbi rhoncus eget ex vitae feugiat. In vitae feugiat velit. Proin rhoncus ut odio non accumsan. Phasellus hendrerit non nulla in rhoncus. Suspendisse id orci sodales, consectetur eros semper, placerat enim."
                     backgroundImage="project/session.jpg"
