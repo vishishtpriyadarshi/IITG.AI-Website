@@ -140,7 +140,7 @@ class People extends Component{
 										<img class="mx-auto rounded-circle" src="img/team/Dibyakanti.png" alt="" />
 										<h4>Dibyakanti Kumar</h4>
 										<p class="text-muted">Outreach & Open Source Head</p>
-										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+										<a class="btn btn-dark btn-social mx-2" href="https://github.com/Dibyakanti"><i class="fab fa-github"></i></a>
 										<a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/dibyakanti.kumar"><i class="fab fa-facebook-f"></i></a>
 										<a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/dibyakantik/"><i class="fab fa-linkedin-in"></i></a>
 									</div>
