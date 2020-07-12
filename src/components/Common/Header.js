@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from "react-router-dom";
 import homeLogo from '../assets/img/IITG.ai_Logo.png';
+//import homeLogo from '../assets/img/IITG_svg.svg';
 
 class PageWrapper extends Component{
 	render(){
@@ -70,7 +71,11 @@ class PageWrapper extends Component{
 								<li class="nav-item">
 									<Link class="nav-link" to="/projects">Projects</Link>
 								</li>
-
+								
+								<li class="nav-item">
+									<Link class="nav-link" to="/blogs">Blogs</Link>
+								</li>
+								
 								<li class="nav-item">
 									<Link class="nav-link" to="/initiatives">Initiatives</Link>
 								</li>

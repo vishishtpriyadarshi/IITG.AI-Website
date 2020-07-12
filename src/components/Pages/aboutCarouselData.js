@@ -1,14 +1,11 @@
 export default [
     {
-        name: 'hackathon.js',
+        name: 'carousel1.js',
     },
 	{
-        name: 'interIIT.js',
+        name: 'carousel2.js',
     },
 	{
-        name: 'seminar.js',
-    },
-	{
-        name: 'talk.js',
+        name: 'carousel3.js',
     }
 ]

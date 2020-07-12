@@ -571,8 +571,8 @@ Responsive iFrames
 
 .navbar
 {  
-    background-color: #283e3e; 
-    opacity: 0.8; 
+    background-color: #2c292f; 
+    opacity: 1; 
     filter:(opacity=80);     
 	transition: all 0.4s ease;
 }
@@ -1500,10 +1500,23 @@ Responsive iFrames
 {
 	border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+	height: 100%;
+	width: 100%;
+	padding: auto;
 }
+
+.peopleCarouselImg{
+  	max-height: 500px;
+  	overflow: hidden;
+    width: 100%;
+    height: auto;
+	
+}
+
 .card_image
 {
-	width: 50%;
+	width: 100%;
+	padding: auto;
 }
 .card_image::after
 {

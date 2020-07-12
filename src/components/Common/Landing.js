@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ParticleBlock from '../blocks/ParticleBlock';
 
 import Logo from '../assets/img/IITG.ai_Logo.png';
+//import Logo from '../assets/img/IITG_svg.svg';
 
 export default class Landing extends Component {
     render() {

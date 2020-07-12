@@ -15,7 +15,7 @@ class People extends Component{
 								<h2 class="section-heading text-uppercase">Mentors</h2>
 								{/*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*/}
 							</div>
-							<div class="row">
+							{/*<div class="row">
 								<div class="col-lg-12">
 									<div class="team-member">
 										<img class="mx-auto rounded-circle" src="img/team/MalePlaceholder.jpg" alt="" />
@@ -27,10 +27,20 @@ class People extends Component{
 									</div>
 								</div>
 								
-							</div>
+							</div>*/}
 							
 							<div class="row">
-								<div class="col-lg-4">
+								<div class="col-lg-3">
+									<div class="team-member">
+										<img class="mx-auto rounded-circle" src="img/team/MalePlaceholder.jpg" alt="" />
+										<h4>Dr.Ashish Anand</h4>
+										<p class="text-muted">CSE Dept</p>
+										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+									</div>
+								</div>
+								<div class="col-lg-3">  
 									<div class="team-member">
 										<img class="mx-auto rounded-circle" src="img/team/AmanDalmia.png" alt="" />
 										<h4>Aman Dalmia</h4>
@@ -40,7 +50,7 @@ class People extends Component{
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
 									</div>
 								</div>
-								<div class="col-lg-4">
+								<div class="col-lg-3">
 									<div class="team-member">
 										<img class="mx-auto rounded-circle" src="img/team/KonarkJain.jpg" alt="" />
 										<h4>Konark Jain</h4>
@@ -50,7 +60,7 @@ class People extends Component{
 										<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
 									</div>
 								</div>
-								<div class="col-lg-4">
+								<div class="col-lg-3">
 									<div class="team-member">
 										<img class="mx-auto rounded-circle" src="img/team/ApoorvaKumar.jpg" alt="" />
 										<h4>Apoorva Kumar</h4>

@@ -1,0 +1,1 @@
+module.exports = "img/about/carousel3.jpg";

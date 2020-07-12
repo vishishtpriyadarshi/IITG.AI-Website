@@ -43,8 +43,8 @@ export default function CenteredGrid() {
     <div className="bg-light">
 		<PageHeader 
                     title="Initiatives" 
-                    description="Phasellus sapien augue, accumsan eu magna pellentesque, ornare porttitor erat. Aliquam a risus in lorem mattis varius. Morbi hendrerit justo eget tristique ornare. Morbi rhoncus eget ex vitae feugiat. In vitae feugiat velit. Proin rhoncus ut odio non accumsan. Phasellus hendrerit non nulla in rhoncus. Suspendisse id orci sodales, consectetur eros semper, placerat enim."
-                    backgroundImage="initiatives/Group.png"
+                    description="We have taken multiple steps for keeping up with research and interacting with the student community of IITG. These include webinars with notable Alumni or Professors,weekly paper discussions and tutorials of the latest techniques, conduction of learning sessions followed with hackathons and participation in external data science competitions."
+                    backgroundImage="initiatives/Initiatives_head.png"
         />
 		<div className={classes.root}>
 			<Paper item sm={12} md={6} className={classes.paper} elevation={3}> 
@@ -75,7 +75,7 @@ export default function CenteredGrid() {
 										Inter IIT
 									</Typography>
 									<Typography variant="body2" color="textSecondary" component="p">
-										Phasellus sit amet tempus augue. Aliquam eget ipsum metus. Nunc a tellus eros. Fusce ac ante iaculis, lobortis ex porta, suscipit nulla. Integer placerat eleifend lectus, sed tristique erat lacinia et. Duis velit lorem, tincidunt laoreet fringilla in, dictum at dolor. Nunc augue mauris, blandit ac rhoncus eget, dignissim non justo. Duis scelerisque semper euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+										
 									</Typography>
 								</CardContent>
 
@@ -90,73 +90,6 @@ export default function CenteredGrid() {
 							</CardActions>
 						</Card>
 					</Grid>
-
-					<Grid item sm={12} md={6} style={{ display: "flex" }}>
-						<Card className={classes.root}>
-							<CardActionArea>
-								<Link to='/hackathons'>
-									<CardMedia
-										className={classes.media}
-										component="img"
-										image="/img/project/Hackathon3.jpg"
-										title="Hackathons"
-									/>
-								</Link>
-
-								<CardContent>
-									<Typography gutterBottom variant="h5" component="h2">
-										Hackathons
-									</Typography>
-
-									<Typography variant="body2" color="textSecondary" component="p">
-										Phasellus sit amet tempus augue. Aliquam eget ipsum metus. Nunc a tellus eros. Fusce ac ante iaculis, lobortis ex porta, suscipit nulla. Integer placerat eleifend lectus, sed tristique erat lacinia et. Duis velit lorem, tincidunt laoreet fringilla in, dictum at dolor. Nunc augue mauris, blandit ac rhoncus eget, dignissim non justo. Duis scelerisque semper euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-									</Typography>
-								</CardContent>
-							</CardActionArea>
-
-							<CardActions>
-								<Link to='/hackathons'>
-									<Button size="small" color="primary">
-										Learn More
-									</Button>
-								</Link>
-							</CardActions>
-						</Card>
-					</Grid>
-
-
-					<Grid item sm={12} md={6} style={{ display: "flex" }}>
-						<Card className={classes.root}>
-							<CardActionArea>
-								<Link to='/paperdiscussions'>
-									<CardMedia
-										className={classes.media}
-										component="img"
-										image="/img/project/Discussions.jpg"
-										title="Paper Discussions"
-									/>
-								</Link>
-
-								<CardContent>
-									<Typography gutterBottom variant="h5" component="h2">
-										Paper Discussions
-									</Typography>
-
-									<Typography variant="body2" color="textSecondary" component="p">
-										Phasellus sit amet tempus augue. Aliquam eget ipsum metus. Nunc a tellus eros. Fusce ac ante iaculis, lobortis ex porta, suscipit nulla. Integer placerat eleifend lectus, sed tristique erat lacinia et. Duis velit lorem, tincidunt laoreet fringilla in, dictum at dolor. Nunc augue mauris, blandit ac rhoncus eget, dignissim non justo. Duis scelerisque semper euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-									</Typography>
-								</CardContent>
-							</CardActionArea>
-
-							<Link to='/paperdiscussions'>
-								<Button size="small" color="primary">
-								  Learn More
-								</Button>
-							</Link>
-						</Card>
-					</Grid>
-
-
 
 					<Grid item sm={12} md={6} style={{ display: "flex" }} padding={20}>
 						<Card className={classes.root}>
@@ -176,7 +109,7 @@ export default function CenteredGrid() {
 									</Typography>
 
 									<Typography variant="body2" color="textSecondary" component="p">
-										Phasellus sit amet tempus augue. Aliquam eget ipsum metus. Nunc a tellus eros. Fusce ac ante iaculis, lobortis ex porta, suscipit nulla. Integer placerat eleifend lectus, sed tristique erat lacinia et. Duis velit lorem, tincidunt laoreet fringilla in, dictum at dolor. Nunc augue mauris, blandit ac rhoncus eget, dignissim non justo. Duis scelerisque semper euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+										
 									</Typography>
 								</CardContent>
 							</CardActionArea>
@@ -188,6 +121,77 @@ export default function CenteredGrid() {
 							</Link>
 						</Card>
 					</Grid>
+
+
+					<Grid item sm={12} md={6} style={{ display: "flex" }}>
+						<Card className={classes.root}>
+							<CardActionArea>
+								<a href="http://github.com/IITGuwahati-AI/Paper-discussions?fbclid=IwAR2QALPpEMnlmfUXMEdOw4byVvMGUkm0AWyDtc_5t6uUjKyWe4HDO5SMSzY">
+									{/*<Link to='http://github.com/IITGuwahati-AI/Paper-discussions?fbclid=IwAR2QALPpEMnlmfUXMEdOw4byVvMGUkm0AWyDtc_5t6uUjKyWe4HDO5SMSzY'>*/}
+									<CardMedia
+										className={classes.media}
+										component="img"
+										image="/img/project/Discussions.jpg"
+										title="Paper Discussions"
+									/>
+									{/*</Link>*/}
+									</a>
+
+								<CardContent>
+									<Typography gutterBottom variant="h5" component="h2">
+										Paper Discussions
+									</Typography>
+
+									<Typography variant="body2" color="textSecondary" component="p">
+										
+									</Typography>
+								</CardContent>
+							</CardActionArea>
+	
+							<a href="http://github.com/IITGuwahati-AI/Paper-discussions?fbclid=IwAR2QALPpEMnlmfUXMEdOw4byVvMGUkm0AWyDtc_5t6uUjKyWe4HDO5SMSzY">
+							{/*<Link to='https://github.com/IITGuwahati-AI/Paper-discussions?fbclid=IwAR2QALPpEMnlmfUXMEdOw4byVvMGUkm0AWyDtc_5t6uUjKyWe4HDO5SMSzY'>*/}
+								<Button size="small" color="primary">
+								  Learn More
+								</Button>
+							{/*</Link>*/}
+							</a>
+						</Card>
+					</Grid>
+
+
+					<Grid item sm={12} md={6} style={{ display: "flex" }}>
+						<Card className={classes.root}>
+							<CardActionArea>
+								<Link to='/hackathons'>
+									<CardMedia
+										className={classes.media}
+										component="img"
+										image="/img/project/Hackathon3.jpg"
+										title="Hackathons"
+									/>
+								</Link>
+
+								<CardContent>
+									<Typography gutterBottom variant="h5" component="h2">
+										Hackathons
+									</Typography>
+
+									<Typography variant="body2" color="textSecondary" component="p">
+										
+									</Typography>
+								</CardContent>
+							</CardActionArea>
+
+							<CardActions>
+								<Link to='/hackathons'>
+									<Button size="small" color="primary">
+										Learn More
+									</Button>
+								</Link>
+							</CardActions>
+						</Card>
+					</Grid>
+					
 				</Grid>
 			</Paper>
 		</div>

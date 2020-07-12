@@ -10,10 +10,10 @@ class Contact extends Component{
                 </div>
                 <div className="container">
                     <div className="home_small_content col-md-6">
-                        <h1>Connect with us.</h1>
-                        <h2 style={{color: "white"}}>IITG.ai email ID</h2>
+                        <h1>Connect with us</h1>
+                        <h2 style={{color: "white"}}>iitguwahati.ai@gmail.com</h2>
                         <hr />
-                        <p> Phasellus sapien augue, accumsan eu magna pellentesque, ornare porttitor erat. Aliquam a risus in lorem mattis varius. Morbi hendrerit justo eget tristique ornare. Morbi rhoncus eget ex vitae feugiat. In vitae feugiat velit. Proin rhoncus ut odio non accumsan. Phasellus hendrerit non nulla in rhoncus. Suspendisse id orci sodales, consectetur eros semper, placerat enim. </p>
+                        <p> Looking for collaboration or volunteering with our society? Shoot us a mail and we would be happy to respond to such requests along with any other general queries you have </p>
                         <h3 style={{color: "white"}}>Follow us on social media</h3>
                         <div className="footer_social contact_social">
                             <ul>

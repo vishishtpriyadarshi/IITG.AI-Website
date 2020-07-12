@@ -25,9 +25,10 @@ class Footer extends React.Component {
 					<div class="row ">
 						<div class="col-md-4 text-center text-md-left ">
 
-							<div class="py-0">
-								<h3 class="my-4 text-white">About<span class="mx-2 font-italic text-warning ">IITG.ai</span></h3>
+							<div class="py-2">
+								<h3 class="my-4 text-white">Developed and Maintained by <br/><span class="mx-2 font-italic text-warning ">IITG.ai</span></h3>
 
+								{/*<span class="mx-2 font-italic text-warning ">IITG.ai</span>*/}
 								{/*<p class="footer-links font-weight-bold">
 									<a class="text-white" href="/">Home</a>
 									|
@@ -37,7 +38,7 @@ class Footer extends React.Component {
 									|
 									<a class="text-white" href="/contact">Contact</a>
 								</p>*/}
-								<p class="text-light py-4 mb-4">&copy;2020 IITG.ai</p>
+								{/*<p class="text-light py-4 mb-4">&copy;2020 IITG.ai</p>*/}
 							</div>
 						</div>
 
@@ -49,18 +50,18 @@ class Footer extends React.Component {
 										  Guwahati, Assam, India</p>
 								</div>
 
-								<div> 
+								{/*<div> 
 									<p><i class="fa fa-phone  mx-2 "></i> Phone No</p>
-								</div>
+								</div>*/}
 								<div>
-									<p><i class="fa fa-envelope  mx-2"></i><a href="mailto:support@xyz.com">iitg.ai gmail</a></p>
+									<p><i class="fa fa-envelope  mx-2"></i><a href="mailto:iitguwahati.ai@gmail.com">iitguwahati.ai@gmail.com</a></p>
 								</div>  
 							</div>  
 						</div>
 
 						<div class="col-md-4 text-white my-4 text-center text-md-left ">
 							<span class=" font-weight-bold ">About us</span>
-							<p class="text-warning my-2" >Study Group at IIT Guwahati focused on learning Machine Learning and Deep Learning</p>
+							<p class="text-warning my-2" >The Artificial Intelligence Community of IIT Guwahati</p>
 							<div class="py-2">
 								<a href="https://www.facebook.com/iitgai/"><i class="fab fa-facebook fa-2x text-info mx-3"></i></a>
 								<a href="https://medium.com/iitg-ai"><i class="fab fa-medium fa-2x text-white mx-3"></i></a>
