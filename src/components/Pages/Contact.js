@@ -10,10 +10,11 @@ class Contact extends Component{
                 </div>
                 <div className="container">
                     <div className="home_small_content col-md-6">
-                        <h1>Connect with us</h1>
+                        <h1>Contact us</h1>
                         <h2 style={{color: "white"}}>iitguwahati.ai@gmail.com</h2>
                         <hr />
-                        <p> Looking for collaboration or volunteering with our society? Shoot us a mail and we would be happy to respond to such requests along with any other general queries you have </p>
+                        <p> Looking for collaboration or volunteering with our society? <br/> Shoot us a mail and we would be happy to respond to such requests along with any other general queries you have </p>
+						<br/> <br/>
                         <h3 style={{color: "white"}}>Follow us on social media</h3>
                         <div className="footer_social contact_social">
                             <ul>

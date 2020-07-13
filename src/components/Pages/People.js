@@ -188,7 +188,7 @@ class People extends Component{
 										<a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/kousik-rajesh/"><i class="fab fa-linkedin-in"></i></a>
 									</div>
 								</div>
-								<div class="col-lg-6">
+								<div class="col-lg-4">
 									<div class="team-member">
 										<img class="mx-auto rounded-circle" src="img/team/Animesh.png" alt="" />
 										<h4>Animesh Tiwari</h4>
@@ -198,7 +198,7 @@ class People extends Component{
 										<a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/animesh-tiwari-353957179/"><i class="fab fa-linkedin-in"></i></a>
 									</div>
 								</div>
-								<div class="col-lg-6">
+								<div class="col-lg-4">
 									<div class="team-member">
 										<img class="mx-auto rounded-circle" src="img/team/Eshwar.png" alt="" />
 										<h4>Eshwar Nukala</h4>
@@ -206,6 +206,16 @@ class People extends Component{
 										<a class="btn btn-dark btn-social mx-2" href="https://github.com/eshwar28"><i class="fab fa-github"></i></a>
 										<a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/eshwar.nukala.9"><i class="fab fa-facebook-f"></i></a>
 										<a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/eshwar-nukala-a187361a6/"><i class="fab fa-linkedin-in"></i></a>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="team-member">
+										<img class="mx-auto rounded-circle" src="img/team/Amit.jpg" alt="" />
+										<h4>Amit Rai</h4>
+										<p class="text-muted">Core Team Member</p>
+										<a class="btn btn-dark btn-social mx-2" href="https://github.com/amitrai12018"><i class="fab fa-github"></i></a>
+										<a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/profile.php?id=100011431753334"><i class="fab fa-facebook-f"></i></a>
+										<a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/amit-rai-12018"><i class="fab fa-linkedin-in"></i></a>
 									</div>
 								</div>
 								

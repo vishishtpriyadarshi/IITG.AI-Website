@@ -71,8 +71,8 @@ export default class About extends Component {
                                 return (
                                     <div className={carouselClass}>
                                         <img 
-											className = "d-block mx-auto"
-                                            style={{height:"550px", width: "60%", filter: "brightness(0.7)"}}
+											className = "d-block mx-auto peopleCarouselImg"
+                                            style={{height:"50%", width: "auto", filter: "brightness(0.7)"}}
                                             src={require(`./InteractionsCarousel/${item.name}`)} 
                                             alt="" 
                                         />

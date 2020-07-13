@@ -58,7 +58,7 @@ class ProjectHome extends Component {
 			
                 <PageHeader 
                     title="Projects Section" 
-                    description="Our members undertake a diverse range of projects in vision ,language processing and reinforcement learning. You can find all the source code and instructions in the respective github repositories."
+                    description="Our members undertake a diverse range of projects in vision, language processing and reinforcement learning. You can find all the source code and instructions in the respective github repositories."
                     backgroundImage="project/session.jpg"
                 />
 				<React.Fragment>

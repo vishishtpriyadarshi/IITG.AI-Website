@@ -18,7 +18,7 @@ export default class About extends Component {
                 </div>*/}
 				
 				<div className="section">
-					<h2 className="section-title fancy-heading"> 2018 Inter IIT Event </h2>
+					<h2 className="section-title fancy-heading"> Inter IIT Tech Meet 8.0 (December 2019) </h2>
 						<div className = "container" style={{margin : "auto", fontSize: "250px !important"}}>
 							The data science competition was organized by Bitgrit Inc along with IIT Roorkee. Bitgrit is a relatively new up and coming online platform that hosts various data science competitions, like Kaggle.<br/>
 The event had three rounds. The first two rounds took place in teams' respective campuses, and for the third and final round, we went to Roorkee. Initially, all of us were reluctant to stay back in campus, as it's been 6 months since we've seen our family and there was a general lack of motivation. But within no time, we started working together and were determined, with our eyes on the prize. Work together with the team was so challenging and fun, that the fact that we were not in our homes with our families did not matter anymore. 
@@ -46,7 +46,7 @@ The inter-IIT was a highlight of our rather boring third semester and definitely
 At the risk of sounding phooey, we will say that working in a team and the contingent meetings and different module people trying to solve each others' problems reinforced the values of teamwork in us. When you do something productive that too with your friends, it makes one hell of an adventure!<br/><br/>
 Whenever you find a learning and at the same time fun opportunity, go aboard!
 <br /> <br />
-<i><b> - Team Intelliqo</b> ( Shrey, Eshwar, Dibyakanti )</i>
+<i><b> - Team Intelliqo</b> ( Shrey, Eshwar and Dibyakanti )</i>
 					</div>
 				</div>
 				

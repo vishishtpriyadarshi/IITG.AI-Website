@@ -4,7 +4,7 @@ export default [
         header: null,
         title: "Intra Hostel Challenge - AI in India",
         subtitle: null,
-        description: "As part of Kriti 2019 IITG.ai for the first conducted a competition and asked participants to develop solutions to problems in India using AI. A total of 8 hostels participated and we saw diverse ideas from AI in mental health ,in medical imaging and even in soil characteristic prediction! ",
+        description: "As part of Kriti 2019, IITG.ai for the first time conducted a competition and asked participants to develop solutions to problems in India using AI. A total of 8 hostels participated and we saw diverse ideas from AI in mental health, in medical imaging and even in soil characteristic prediction! ",
         col: "12",
         image: "KritiHackathon.jpg",
 		link: "https://github.com/IITGuwahati-AI/Kriti ",

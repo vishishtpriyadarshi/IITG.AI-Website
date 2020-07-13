@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from "react-router-dom";
-import homeLogo from '../assets/img/IITG.ai_Logo.png';
+import homeLogo from '../assets/img/IITG.ai_Logo3.png';
 //import homeLogo from '../assets/img/IITG_svg.svg';
 
 class PageWrapper extends Component{
