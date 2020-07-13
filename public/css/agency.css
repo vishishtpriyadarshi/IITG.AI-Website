@@ -1500,8 +1500,10 @@ Responsive iFrames
 {
 	border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-	height: 100%;
-	width: 100%;
+	max-height: 500px;
+  	overflow: hidden;
+	height: auto;
+	width: 80%;
 	padding: auto;
 }
 

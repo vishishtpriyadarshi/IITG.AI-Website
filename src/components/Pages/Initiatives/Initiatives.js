@@ -65,14 +65,14 @@ export default function CenteredGrid() {
 									<CardMedia
 										className={classes.media}
 										component="img"
-										image="/img/project/interiit3.png"
-										title="Inter IIT"
+										image="/img/initiatives/InterIIT_Heading.png"
+										title="Inter IIT Tech Meet"
 									/>
 								</Link>
 
 								<CardContent>
-									<Typography gutterBottom variant="h5" component="h2">
-										Inter IIT
+									<Typography gutterBottom variant="h5" component="h2" style={{textAlign: "center"}}>
+										Inter IIT Tech Meet
 									</Typography>
 									<Typography variant="body2" color="textSecondary" component="p">
 										
@@ -81,13 +81,13 @@ export default function CenteredGrid() {
 
 							</CardActionArea>
 
-							<CardActions>
+							{/*<CardActions>
 								<Link to='/interIIT'>
 									<Button size="small" color="primary">
 									Learn More
 									</Button>
 								</Link>
-							</CardActions>
+							</CardActions>*/}
 						</Card>
 					</Grid>
 
@@ -98,13 +98,13 @@ export default function CenteredGrid() {
 								<CardMedia
 									className={classes.media}
 									component="img"
-									image="/img/project/sail.jpg"
+									image="/img/initiatives/Interactions_Heading1.jpg"
 									title="Alumni Interactions"
 								/>
 								</Link>
 
 								<CardContent>
-									<Typography gutterBottom variant="h5" component="h2">
+									<Typography gutterBottom variant="h5" component="h2" style={{textAlign: "center"}}>
 										Alumni Interactions
 									</Typography>
 
@@ -114,11 +114,11 @@ export default function CenteredGrid() {
 								</CardContent>
 							</CardActionArea>
 
-							<Link to='/alumni'>
+							{/*<Link to='/alumni'>
 								<Button size="small" color="primary">
 									Learn More
 								</Button>
-							</Link>
+							</Link>*/}
 						</Card>
 					</Grid>
 
@@ -138,7 +138,7 @@ export default function CenteredGrid() {
 									</a>
 
 								<CardContent>
-									<Typography gutterBottom variant="h5" component="h2">
+									<Typography gutterBottom variant="h5" component="h2" style={{textAlign: "center"}}>
 										Paper Discussions
 									</Typography>
 
@@ -148,13 +148,11 @@ export default function CenteredGrid() {
 								</CardContent>
 							</CardActionArea>
 	
-							<a href="http://github.com/IITGuwahati-AI/Paper-discussions?fbclid=IwAR2QALPpEMnlmfUXMEdOw4byVvMGUkm0AWyDtc_5t6uUjKyWe4HDO5SMSzY">
-							{/*<Link to='https://github.com/IITGuwahati-AI/Paper-discussions?fbclid=IwAR2QALPpEMnlmfUXMEdOw4byVvMGUkm0AWyDtc_5t6uUjKyWe4HDO5SMSzY'>*/}
+							{/*<a href="http://github.com/IITGuwahati-AI/Paper-discussions?fbclid=IwAR2QALPpEMnlmfUXMEdOw4byVvMGUkm0AWyDtc_5t6uUjKyWe4HDO5SMSzY">
 								<Button size="small" color="primary">
 								  Learn More
 								</Button>
-							{/*</Link>*/}
-							</a>
+							</a>*/}
 						</Card>
 					</Grid>
 
@@ -172,7 +170,7 @@ export default function CenteredGrid() {
 								</Link>
 
 								<CardContent>
-									<Typography gutterBottom variant="h5" component="h2">
+									<Typography gutterBottom variant="h5" component="h2" style={{textAlign: "center"}}>
 										Hackathons
 									</Typography>
 
@@ -182,13 +180,13 @@ export default function CenteredGrid() {
 								</CardContent>
 							</CardActionArea>
 
-							<CardActions>
+							{/*<CardActions>
 								<Link to='/hackathons'>
 									<Button size="small" color="primary">
 										Learn More
 									</Button>
 								</Link>
-							</CardActions>
+							</CardActions>*/}
 						</Card>
 					</Grid>
 					

@@ -10,7 +10,7 @@ export default class About extends Component {
                 <PageHeader 
                     title="Alumni Webinars/Professor Interaction" 
                     description="IITG.ai truly believes that in order to grow better, we need to have better connections with our alumni and also Professors. For this, we have started a webinar series where notable alumni in AI/ML share their experience /career paths and current work. Alumni who have already given talks include Aman Dalmia(Wadhwani AI), Vivek Gupta(founder SIGML), Rishabh Jangir(ex-Robotics club secy), and professors like Dr Ashish Anand."
-                    backgroundImage="initiatives/sail.jpg"
+                    backgroundImage="initiatives/Interactions_Heading2.jpg"
                 />
 
 				{/*<br />
