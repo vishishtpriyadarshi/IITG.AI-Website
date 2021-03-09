@@ -34,9 +34,10 @@ export default class PortfolioItem extends Component {
                         <div className="card-header">{this.props.header}</div>
                         <div className="card-title">{this.props.title}</div>
                         {this.subtitle()}
-                        <div className="card-text">
-                            {this.props.description}
+                        <div className="card-text white-space">
+							{this.props.description}
                         </div>
+						{link ? <a href={link}>Click here for the details</a> : ""}
 						{/*<br />
 						<div className="card-img-top">
 							{this.cardImage()}

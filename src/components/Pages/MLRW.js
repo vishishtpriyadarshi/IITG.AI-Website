@@ -16,6 +16,26 @@ class Blogs extends Component{
 				<div className="portfolio">
                     <div className="container">
 						<div className="section" style={{textContent: "center"}}>
+							<h2 className="section-title fancy-heading"> Day - 0 </h2>
+						</div>
+						<div className="portfolio_items">
+							<div className="row">
+								
+								<PortfolioItem 
+											header={"13th Feb - 21st Feb 2021"}
+											title={"AI Hackathon"}
+											link={"https://drive.google.com/file/d/1UZiRLhotwy86sHYmqv9TbqQ5_-f2eqNU/view?fbclid=IwAR2r8G2z1DSve1J_-I3qHaHmmThnfBcWM9lrZFS3qlQgvM_Q61Ms51SYI6M"}
+											image={"mlrw/mlrw_hackathon.png"}
+											subtitle={null}
+											description={"IITG.ai is organizing an AI Hackathon that shall commence on 13th February 2021. The following timeline shall be followed:\n\nProblem statement release: 13th February, 2021 (10:00 AM)\nSubmission Deadline: 21st February, 2021 (11:59 PM)\n\nYou can participate in a team of maximum two members. Cash Prizes shall be given to the top 3 winning submissions!\n(1st-Rs. 2000, 2nd-Rs.1500, 3rd-Rs.1000)\n\nUpdate: The AI Hackathon has been successfully completed. The winners will be shortly announced!"}
+											col={"12"}
+											key={"1"}
+								/>
+							</div>
+						</div>
+						
+						<br /> <br />
+						<div className="section" style={{textContent: "center"}}>
 							<h2 className="section-title fancy-heading"> Day - 1 </h2>
 						</div>
 						<div className="portfolio_items">

@@ -171,7 +171,7 @@ export default function CenteredGrid() {
 
 								<CardContent>
 									<Typography gutterBottom variant="h5" component="h2" style={{textAlign: "center"}}>
-										Hackathons
+										Hackathons & Workshops
 									</Typography>
 
 									<Typography variant="body2" color="textSecondary" component="p">
