@@ -25,10 +25,11 @@ export default class PortfolioItem extends Component {
     }
 
     render() {
-        const link = this.props.link; // null if no link, preserves link-less <a> tag
+		const link = this.props.link; // null if no link, preserves link-less <a> tag
         return (
             <div className={`col-md-${this.props.col} mb-4`}>
                 <a href={link} className="card branding">
+					{this.cardImage()}
                     <div className="card-body">
                         <div className="card-header">{this.props.header}</div>
                         <div className="card-title">{this.props.title}</div>
@@ -36,8 +37,10 @@ export default class PortfolioItem extends Component {
                         <div className="card-text">
                             {this.props.description}
                         </div>
-						<br />
-						{this.cardImage()}
+						{/*<br />
+						<div className="card-img-top">
+							{this.cardImage()}
+						</div>*/}
                     </div>
                 </a>
             </div>

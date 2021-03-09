@@ -79,6 +79,10 @@ class PageWrapper extends Component{
 								<li class="nav-item">
 									<Link class="nav-link" to="/initiatives">Initiatives</Link>
 								</li>
+								
+								<li class="nav-item">
+									<Link class="nav-link" to="/mlrw">MLRW</Link>
+								</li>
 
 								<li class="nav-item">
 									<Link class="nav-link" to="/people">People</Link>

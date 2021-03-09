@@ -1498,13 +1498,21 @@ Responsive iFrames
 }
 .card-img-top
 {
-	border-top-left-radius: 0px;
+	margin: auto;
+  	align-items: center;
+	display: block;
+	width: 80%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 400px;
+	max-height: 470px;
+	/* border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 	max-height: 500px;
   	overflow: hidden;
 	height: auto;
 	width: 80%;
-	padding: auto;
+	padding: auto; */
 }
 
 .peopleCarouselImg{
@@ -1515,19 +1523,41 @@ Responsive iFrames
 	
 }
 
+.card_image_alt
+{
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-webkit-transform: translate(-50%, -50%);
+  	-moz-transform: translate(-50%, -50%);
+  	-o-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  
+  	font-size: 20px;
+  	background-color: cyan;
+  	border: darkgreen 5px solid;
+  	padding: 5px;
+  	z-index: 100;
+}
 .card_image
 {
-	width: 100%;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+	width: 80%;
 	padding: auto;
 }
 .card_image::after
 {
+	margin-left: auto;
+  	margin-right: auto;
 	display: block;
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	width: 80%;
+	height: 80%;
 	content: '';
 	background: rgba(69, 43, 120, 0);
 	-webkit-transition: all 200ms ease;
@@ -1547,7 +1577,7 @@ Responsive iFrames
 }
 .card-body
 {
-	width: 50%;
+	width: 75%;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 20px;

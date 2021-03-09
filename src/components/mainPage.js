@@ -17,6 +17,7 @@ import Hackathons from './Pages/Initiatives/Hackathons';
 import PaperDiscussions from './Pages/Initiatives/paperDiscussions';
 import Alumni from './Pages/Initiatives/alumni';
 import InterIIT from './Pages/Initiatives/interIIT';
+import MLRW from './Pages/MLRW';
 
 function NotFound() {
 	  return (
@@ -88,7 +89,12 @@ export default function MainPage() {
 				path = "/blogs"
 				component = {Blogs}
 			/>
-          
+          	
+			<Route exact
+				path = "/MLRW"
+				component = {MLRW}
+			/>
+			
 			<Route exact
 				path = "**" 
 				component = {NotFound} 

@@ -40,7 +40,7 @@ We aim to provide a platform for like-minded people to come together and discuss
 									  <PortfolioItem 
 											header={null}
 											title={"Aman Dalmia"}
-											image={null}
+											image={"team/AmanDalmia.png"}
 											link={null}
 											subtitle={"Founder of IITG.ai, currently at Wadhwani AI"}
 											description={"One of the core aims of the club was to build a community, not only to share knowledge with each other, but also get diverse perspectives for tackling a given problem. It can be seen from the statements that there is already a wide spectrum in the reasons why several members joined the club and why they are excited about the field, ranging from solving intelligence to working on problems of societal importance. It is hard to imagine now, that just a couple of years ago, AI researchers on-campus used to mostly work in isolation, not necessarily because they wanted to do so, but because they lacked the platform that would enable collaboration. 2019 being the inaugural year of the club as an official part of the Gymkhana, this was the core vision we wanted to materialize - encourage students to view each other as collaborators to learn from and grow together with. And to help them realise that their network of support extends beyond their present peers in the form of seniors, alumni and Professors. The several paper discussion sessions, workshops, alumni webinars and a hackathon have been important milestones in that direction. Every member of the club is very excited about the future of the club and we have a ton of exciting things planned for the next year to help each member grow, both in terms of their learning and also their personal development as a future developer/researcher."}
@@ -50,7 +50,7 @@ We aim to provide a platform for like-minded people to come together and discuss
 										<PortfolioItem  
 											header={null}
 											title={"Aditya Mehndiratta"}
-											image={null}
+											image={"team/AdityaMehndiratta.png"}
 											link={null}
 											subtitle={"Ex-Secretary, 4th year"}
 											description={"IITG.ai is an amazing amalgamation of people with varied interests. For some it is the mathematics that is intriguing while for some it is the code and application of AI. I think these varied interests are what makes this group special.Born out of a frustration in the lack of an AI culture in IITG, I believe that this group has an immense responsibility in taking a lead role in eliminating the high barrier required to excel in this field. In such a short span of time (barely 2 years since we started) we have seen a massive jump in participation and activities. From a mere handful of members we are more than a group of 20 now! Today,we have regular paper discussion ,courses and projects all running in parallel. The rise of IITG.ai has been phenomenal and something I can be truly proud of. I am sure that the current batch of enthusiastic members will set the bar even higher and churn out some incredible AI talent in the days to come."}
