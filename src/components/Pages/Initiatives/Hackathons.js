@@ -9,7 +9,7 @@ export default class About extends Component {
         return(
             <div className="bg-light">
                 <PageHeader 
-                    title="Hackathons" 
+                    title="Hackathons & Workshops" 
                     description="What better way to showcase your skills in AI/ML than to participate in a hackathon. The great thing about such hackathons is that we can easily develop an interesting application in just the span of a day or 24 hours. Subsequently, one could work on improving the model and getting better results. The learning outcome is also notable."
                     backgroundImage="initiatives/Hackathon2.jpg"
                 />
