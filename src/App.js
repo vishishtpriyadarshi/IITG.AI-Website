@@ -5,7 +5,7 @@ import MainPage from './components/mainPage';
 
 function App() {
   return (
-    <BrowserRouter basename={'/IITG.AI-Website/'}>
+    <BrowserRouter>
       <MainPage />
     </BrowserRouter>
   );
