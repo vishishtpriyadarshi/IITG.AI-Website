@@ -10,7 +10,7 @@ class Blogs extends Component{
                 <PageHeader 
                     title="Machine Learning Research Weekend" 
                     description="IITG.ai presents the very first edition of Machine Learning Research Weekend or MLRW! We organised webinars from industry experts and leading professors starting from the 4th of March 2021. "
-                    backgroundImage="blogs/blog2.png"
+                    backgroundImage="mlrw/cover.jpeg"
                 />
 				
 				<div className="portfolio">
