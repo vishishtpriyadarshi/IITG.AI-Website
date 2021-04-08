@@ -31,9 +31,9 @@ export default [
         header: null,
         title: "History of Deep Learning",
         subtitle: null,
-        description: "The hackathon started with a lecture from our senior on transfer learning from a practical and implementation perspective. The problem statement was that we had to pick a problem/dataset of our choice and apply transfer learning to it. Narrowing down to a good dataset to work on took the majority of time. Teams came up with interesting problems such as Face2Text, Flower Classification, Sound Captioning and so on. Face2text takes images of faces as input and attempts to describe the face based on facial features and emotional expressions. All the teams presented their solutions where we were questioned and graded based on novelty, the application of transfer learning and the working of the model. Results they were subsequently announced and Face2text stood first.",
+        description: "We had a long and informative presentation on the History of Deep Learning based on the paper 'Deep Learning in Neural Networks: An Overview' by Jurgen Schmidhuber.\n\nThis paper is a must read for anyone who is looking to get a walkthrough of deep learning approaches throughout the years.",
 		image: "historyDL.PNG",
-		link: "https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Deep%20Learning%20in%20Neural%20Networks:%20An%20Overview.md",
+		link: "https://docs.google.com/presentation/d/1BPHC3gST5D6r0rOZTuZWENYt4ndGc-O0c1Pwibukrw0/edit#slide=id.g9a2c8e515e_0_19",
         col: "12"
     }
     
